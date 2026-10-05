@@ -1,0 +1,48 @@
+{
+ "scoring_version": "2.0",
+ "config": {
+  "weights": {
+   "congruence": 0.25,
+   "coverage": 0.15,
+   "constraint": 0.25,
+   "completeness": 0.15,
+   "consistency": 0.2
+  },
+  "thresholds": {
+   "pass_threshold": 0.75,
+   "review_threshold": 0.5
+  },
+  "settings": {
+   "congruence_min_similarity": 0.7,
+   "congruence_exact_match_bonus": 0.2,
+   "coverage_novelty_threshold": 3,
+   "coverage_novelty_bonus": 0.3,
+   "constraint_min_length": 2,
+   "constraint_max_length": 200,
+   "constraint_violation_penalty": 0.25,
+   "completeness_required_fields": "type,text",
+   "completeness_optional_weight": 0.15,
+   "consistency_agreement_bonus": 0.3,
+   "consistency_base_score": 0.5
+  }
+ },
+ "bert": true,
+ "bert_model": "biored_biomedbert",
+ "bert_checkpoint": {
+  "path": "/work/jcanodeb/VLLM_Paper/BERT_models/Entities/biored_biomedbert",
+  "weights_sha256": "c2527cf01fba252174a8330baad7949ba24bf310cd7122e2e701a2f4ba3f34fc",
+  "config_sha256": "bc086288e70a3ff7ed8b90df75f18264d7d27c5089c40791d32e647beed31cf3",
+  "tokenizer_sha256": "af642d812bf0d334d107f608506cf7dc90295481c9e037bfbd472426664996cc",
+  "trained_on": "BioRED",
+  "train_sha256": "c2f620062e1f1ed0cf1795fbff0e4c54fe2e3505ff85489f3532a6a86cab7382",
+  "test_used": false,
+  "base_model": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+  "base_model_revision": "e1354b7a3a09615f6aba48dfad4b7a613eef7062",
+  "dev_f1": 0.881797366914711
+ },
+ "kg": "/work/jcanodeb/VLLM_Paper/KnowledgeGraph/experiments/biored/development_v1",
+ "kg_sha256": "1199f686a257555f78e1b0ab69b8ddd8b8102a4ad0a98f1d0acf777e43753c35",
+ "rows": 580,
+ "predictions_sha256": "c9d5adcb46e76fe751dc195615c79fb71d8350e0cf64e8a18bcf1af16577c35f",
+ "created_at": "2026-10-04T02:19:04.097183+00:00"
+}

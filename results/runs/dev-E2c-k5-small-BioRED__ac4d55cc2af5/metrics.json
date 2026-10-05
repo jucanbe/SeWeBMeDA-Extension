@@ -1,0 +1,145 @@
+{
+ "micro": {
+  "precision": 0.6517857142857143,
+  "recall": 0.6552962298025135,
+  "f1": 0.6535362578334826,
+  "tp": 365,
+  "fp": 195,
+  "fn": 192
+ },
+ "macro_f1": 0.5574139008072688,
+ "macro_types": [
+  "CellLine",
+  "ChemicalEntity",
+  "DiseaseOrPhenotypicFeature",
+  "GeneOrGeneProduct",
+  "OrganismTaxon",
+  "SequenceVariant"
+ ],
+ "per_type": {
+  "CellLine": {
+   "precision": 0.13333333333333333,
+   "recall": 0.6666666666666666,
+   "f1": 0.2222222222222222,
+   "tp": 2,
+   "fp": 13,
+   "fn": 1,
+   "support": 3
+  },
+  "ChemicalEntity": {
+   "precision": 0.7597402597402597,
+   "recall": 0.73125,
+   "f1": 0.7452229299363058,
+   "tp": 117,
+   "fp": 37,
+   "fn": 43,
+   "support": 160
+  },
+  "DiseaseOrPhenotypicFeature": {
+   "precision": 0.5657142857142857,
+   "recall": 0.6513157894736842,
+   "f1": 0.6055045871559632,
+   "tp": 99,
+   "fp": 76,
+   "fn": 53,
+   "support": 152
+  },
+  "GeneOrGeneProduct": {
+   "precision": 0.7835820895522388,
+   "recall": 0.75,
+   "f1": 0.7664233576642335,
+   "tp": 105,
+   "fp": 29,
+   "fn": 35,
+   "support": 140
+  },
+  "OrganismTaxon": {
+   "precision": 0.3541666666666667,
+   "recall": 0.26153846153846155,
+   "f1": 0.3008849557522124,
+   "tp": 17,
+   "fp": 31,
+   "fn": 48,
+   "support": 65
+  },
+  "SequenceVariant": {
+   "precision": 0.7352941176470589,
+   "recall": 0.6756756756756757,
+   "f1": 0.7042253521126761,
+   "tp": 25,
+   "fp": 9,
+   "fn": 12,
+   "support": 37
+  }
+ },
+ "n_sentences": 200,
+ "overlap": {
+  "precision": 0.7535714285714286,
+  "recall": 0.7576301615798923,
+  "f1": 0.7555953446732319,
+  "tp": 422,
+  "fp": 138,
+  "fn": 135
+ },
+ "token": {
+  "precision": 0.6851211072664359,
+  "recall": 0.7105263157894737,
+  "f1": 0.6975924838520257,
+  "tp": 594,
+  "fp": 273,
+  "fn": 242
+ },
+ "errors": {
+  "correct": 365,
+  "type_error": 11,
+  "boundary_error": 61,
+  "boundary_type_error": 15,
+  "spurious": 108,
+  "missed": 113
+ },
+ "confusion": {
+  "CellLine->CellLine": 2,
+  "CellLine->O": 1,
+  "ChemicalEntity->ChemicalEntity": 117,
+  "ChemicalEntity->GeneOrGeneProduct": 3,
+  "ChemicalEntity->O": 40,
+  "DiseaseOrPhenotypicFeature->DiseaseOrPhenotypicFeature": 99,
+  "DiseaseOrPhenotypicFeature->O": 51,
+  "DiseaseOrPhenotypicFeature->OrganismTaxon": 2,
+  "GeneOrGeneProduct->ChemicalEntity": 4,
+  "GeneOrGeneProduct->GeneOrGeneProduct": 105,
+  "GeneOrGeneProduct->O": 30,
+  "GeneOrGeneProduct->OrganismTaxon": 1,
+  "O->CellLine": 13,
+  "O->ChemicalEntity": 33,
+  "O->DiseaseOrPhenotypicFeature": 76,
+  "O->GeneOrGeneProduct": 25,
+  "O->OrganismTaxon": 28,
+  "O->SequenceVariant": 9,
+  "OrganismTaxon->O": 48,
+  "OrganismTaxon->OrganismTaxon": 17,
+  "SequenceVariant->GeneOrGeneProduct": 1,
+  "SequenceVariant->O": 11,
+  "SequenceVariant->SequenceVariant": 25
+ },
+ "seen_unseen_recall": {
+  "seen": {
+   "recall": 0.6074074074074074,
+   "gold": 270
+  },
+  "unseen": {
+   "recall": 0.7003484320557491,
+   "gold": 287
+  }
+ },
+ "run": {
+  "n_sentences": 200,
+  "n_abandoned_as_empty": 0,
+  "unaligned": 22,
+  "mean_latency_s": 2.042605,
+  "prompt_tokens": 206610,
+  "completion_tokens": 18808,
+  "failed_attempts": 0,
+  "validator_actions": 0
+ }
+}

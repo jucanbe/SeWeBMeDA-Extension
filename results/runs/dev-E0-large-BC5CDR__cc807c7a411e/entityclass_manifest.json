@@ -1,0 +1,48 @@
+{
+ "scoring_version": "2.0",
+ "config": {
+  "weights": {
+   "congruence": 0.25,
+   "coverage": 0.15,
+   "constraint": 0.25,
+   "completeness": 0.15,
+   "consistency": 0.2
+  },
+  "thresholds": {
+   "pass_threshold": 0.75,
+   "review_threshold": 0.5
+  },
+  "settings": {
+   "congruence_min_similarity": 0.7,
+   "congruence_exact_match_bonus": 0.2,
+   "coverage_novelty_threshold": 3,
+   "coverage_novelty_bonus": 0.3,
+   "constraint_min_length": 2,
+   "constraint_max_length": 200,
+   "constraint_violation_penalty": 0.25,
+   "completeness_required_fields": "type,text",
+   "completeness_optional_weight": 0.15,
+   "consistency_agreement_bonus": 0.3,
+   "consistency_base_score": 0.5
+  }
+ },
+ "bert": true,
+ "bert_model": "bc5cdr_biomedbert",
+ "bert_checkpoint": {
+  "path": "/work/jcanodeb/VLLM_Paper/BERT_models/Entities/bc5cdr_biomedbert",
+  "weights_sha256": "af6c228eff2d737a3d290941dc1031ff199b9825a6469946c6b595770ad51ac1",
+  "config_sha256": "8666fac5f42e99f48b1eb9d5c4fc3f31cdd98a7ab671a4241e4edd8c984cd903",
+  "tokenizer_sha256": "af642d812bf0d334d107f608506cf7dc90295481c9e037bfbd472426664996cc",
+  "trained_on": "BC5CDR",
+  "train_sha256": "9ff5531f77af77dd8d3927d14022e5218e5a9174bce78c97de5dfd9f5a4bf669",
+  "test_used": false,
+  "base_model": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+  "base_model_revision": "e1354b7a3a09615f6aba48dfad4b7a613eef7062",
+  "dev_f1": 0.8941126864491645
+ },
+ "kg": "/work/jcanodeb/VLLM_Paper/KnowledgeGraph/experiments/bc5cdr/development_v1",
+ "kg_sha256": "b27033763d1233e24eed783548f861ab9d4fed83ae03ffc1e64ebc0bf248e8b7",
+ "rows": 396,
+ "predictions_sha256": "5db887346ba4ad95b161b37c1e1a1a9a29690bd052e20b711b75809dbe58dded",
+ "created_at": "2026-10-04T02:19:01.795274+00:00"
+}

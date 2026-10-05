@@ -1,0 +1,4 @@
+dataset,rows,unique_sentences,annotated_sentences,silver_mentions,mentions_per_sentence,requested_domain_satisfied,novel_mentions_vs_train,distinct_mentions,distinct_novel_mentions
+BC5CDR,3600,3597,3597,15658,4.3531,0.9942,0.4644,3066,2365
+BioRED,6384,6383,6383,32089,5.0273,0.9851,0.4777,5014,4144
+MedMentions,7260,5300,5300,27113,5.1157,0.9506,0.4529,7508,5325

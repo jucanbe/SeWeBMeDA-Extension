@@ -1,0 +1,46 @@
+{
+  "_note": "Pre-registration of the H100/vLLM study (plan v6 without LoRA). Written before any H100 DEV or TEST run; its sha256 is recorded at the freeze and checked before TEST and analysis. Copied and adapted from EntityClass/experiments/configs/comparisons_v6.json: E8/E9 (LoRA) removed; k tuned independently per model size; all Mac (llama.cpp/GGUF) runs are pilot data and are not used. Paired resampling over sentences; 10,000 bootstrap resamples and 10,000 permutations for F1; 2,000 resamples for AUROC; 95% percentile CIs; Holm correction within each tested family. Nothing is fitted or tuned on TEST.",
+  "runtime": "vLLM, Hugging Face weights in BF16 (Qwen) and native MXFP4 (gpt-oss), one H100, tensor parallel 1, temperature 0, seed 0, JSON-schema constrained output; Qwen thinking disabled; gpt-oss reasoning_effort low",
+  "models": {"4b": "Qwen/Qwen3.5-4B", "9b": "Qwen/Qwen3.5-9B", "27b": "Qwen/Qwen3.5-27B", "annotator": "openai/gpt-oss-20b", "embedding": "nomic-ai/nomic-embed-text-v1.5"},
+  "datasets": ["BC5CDR", "BioRED", "MedMentions"],
+  "dev": {"subset": "200 sentences per dataset, stratified, seed 20261001",
+          "grid": {"4b": "E0; E1 k 1/3/5/10; random k=5; E5 m 5/10/20; E2, E3, E2c k 1/3/5/10",
+                   "9b": "E0; E1 k 1/3/5/10; E2 k 1/3/5/10", "27b": "E0; E1 k 1/3/5/10"},
+          "selection": "DEV micro-F1 per model and dataset, ties to the smaller k or m; validator thresholds (E4, E6) by DEV micro-F1 over a fixed 18-point grid"},
+  "test_subsets": {"BioRED": "full TEST", "BC5CDR": "stratified 1000, seed 20261001", "MedMentions": "stratified 1000, seed 20261001"},
+  "conditions_by_model": {"4b": ["E0", "E1", "E2", "E3", "E2c", "E4", "E5", "E6"], "9b": ["E0", "E1", "E2"], "27b": ["E0", "E1"]},
+  "conditions": {"E0": "zero-shot", "E1": "original TRAIN demonstrations", "E2": "silver-labelled original synthetic demonstrations", "E3": "mixed original and synthetic demonstrations", "E2c": "silver-labelled TRAIN demonstrations (label-noise control)", "E4": "E0 + post-hoc KG validator", "E5": "KG-RAG", "E6": "E5 + post-hoc KG validator"},
+  "removed": ["E8", "E9", "E8R", "E10", "LoRA/PEFT training and all comparisons involving it"],
+  "unit_of_analysis": "predicted span after alignment; unaligned classifier outputs reported in a sensitivity analysis as incorrect",
+  "primary_validity_set": {"models": ["4b", "9b", "27b"], "conditions": ["E0", "E1"]},
+  "scorers": {
+    "W0": "EntityClass default weights 0.25/0.15/0.25/0.15/0.20",
+    "W1": "EntityClass equal weights",
+    "W2": "EntityClass frontier-LLM proposed weights (optional; elicited without DEV/TEST correctness; included only if configs/w2_frontier_weights.json exists at freeze time)",
+    "W3": "EntityClass DEV-calibrated linear weights (non-negative, sum 1, simplex grid 0.05, pooled DEV AUROC of the primary validity set)",
+    "B0": "classifier-reported confidence",
+    "B1": "BERT agreement (+p agree, -p disagree, 0 abstain)",
+    "B2": "surface seen in TRAIN with the same type",
+    "B3": "logistic regression over the five criteria, fitted on DEV",
+    "B4": "gradient-boosted trees over the five criteria (depth 3, 200 trees, learning rate 0.05), fitted on DEV"
+  },
+  "families": {
+    "RQ1_criterion_validity": {"tested": true, "statistic": "AUROC of each criterion for correct vs incorrect predicted spans, pooled over the primary validity set; two-sided sentence-bootstrap test of AUROC = 0.5; Holm over the five criteria", "also_reported": ["PR-AUC", "distribution by error type", "Kruskal-Wallis", "Cliff's delta vs correct", "per model and dataset", "with and without BERT for Consistency"]},
+    "RQ2_overall_and_decision": {"tested": true, "comparisons": [["W0", "B0"], ["W0", "B1"], ["W0", "B2"], ["W0", "B3"], ["W0", "B4"]], "statistic": "paired sentence-bootstrap AUROC difference; Holm", "also_reported": ["PR-AUC", "false acceptance", "false rejection", "P(correct | passed)", "filtering P/R/F1", "ECE and Brier after isotonic mapping fitted on DEV", "sentence-level Spearman correlations"]},
+    "RQ3_weighting": {"tested": true, "comparisons": [["W0", "W1"], ["W0", "W2"], ["W0", "W3"], ["W3", "B3"], ["W3", "B4"]], "statistic": "paired sentence-bootstrap AUROC difference; Holm (W2 only if available)", "ablation": "all criteria and minus each criterion, weights renormalised, under W0"},
+    "RQ4_robustness": {"tested": false, "report": ["every scorer per model (within-model AUROC with CI) and per dataset", "strata A (seen same type) / B (seen other type) / C (unseen), minimum 30 correct and 30 incorrect rows per cell", "with and without BERT"]},
+    "RQ5_synthetic_and_scorecard": {"tested": true,
+      "f1_comparisons_note": "listed under f1_comparisons in RQ5_f1",
+      "scorecard_statistics": ["difference in W0 AUROC vs correctness", "difference in false acceptance and false rejection", "difference in filtered F1", "overall score distributions"],
+      "pairs": [["4b", "E1", "E2"], ["4b", "E1", "E3"], ["4b", "E1", "E2c"], ["4b", "E2c", "E2"], ["9b", "E1", "E2"]]},
+    "RQ5_f1": {"tested": true, "f1_comparisons": [
+      {"model": "4b", "a": "E1", "b": "E2"}, {"model": "4b", "a": "E1", "b": "E3"},
+      {"model": "4b", "a": "E1", "b": "E2c"}, {"model": "4b", "a": "E2c", "b": "E2"}]},
+    "RQ5_f1_secondary": {"tested": false, "f1_comparisons": [{"model": "9b", "a": "E1", "b": "E2"}]},
+    "RQ6_kg_role": {"tested": false, "f1_comparisons": [
+      {"model": "4b", "a": "E0", "b": "E4"}, {"model": "4b", "a": "E0", "b": "E5"}, {"model": "4b", "a": "E5", "b": "E6"}]},
+    "RQ6_continuity": {"tested": false, "report": ["entity content, novelty and requested-domain consistency of the original synthetic corpora", "silver quality on the TRAIN control", "annotator / gazetteer / BERT agreement", "EntityClass scores of silver entities", "manual audit (outside this package)", "exposure to TEST (limitation): TEST-only mention rate and recall by seen / exposed / unseen mentions"]},
+    "model_ladder": {"tested": false, "f1_comparisons": [
+      {"model": "4b", "a": "E0", "b": "E1"}, {"model": "9b", "a": "E0", "b": "E1"}, {"model": "27b", "a": "E0", "b": "E1"}]}
+  }
+}

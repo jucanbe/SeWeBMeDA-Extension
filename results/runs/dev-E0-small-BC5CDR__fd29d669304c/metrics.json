@@ -1,0 +1,89 @@
+{
+ "micro": {
+  "precision": 0.710691823899371,
+  "recall": 0.576530612244898,
+  "f1": 0.6366197183098592,
+  "tp": 226,
+  "fp": 92,
+  "fn": 166
+ },
+ "macro_f1": 0.6252019125153454,
+ "macro_types": [
+  "Chemical",
+  "Disease"
+ ],
+ "per_type": {
+  "Chemical": {
+   "precision": 0.807909604519774,
+   "recall": 0.6355555555555555,
+   "f1": 0.7114427860696517,
+   "tp": 143,
+   "fp": 34,
+   "fn": 82,
+   "support": 225
+  },
+  "Disease": {
+   "precision": 0.5886524822695035,
+   "recall": 0.49700598802395207,
+   "f1": 0.538961038961039,
+   "tp": 83,
+   "fp": 58,
+   "fn": 84,
+   "support": 167
+  }
+ },
+ "n_sentences": 200,
+ "overlap": {
+  "precision": 0.8459119496855346,
+  "recall": 0.6862244897959183,
+  "f1": 0.7577464788732393,
+  "tp": 269,
+  "fp": 49,
+  "fn": 123
+ },
+ "token": {
+  "precision": 0.7300613496932515,
+  "recall": 0.6735849056603773,
+  "f1": 0.7006869479882237,
+  "tp": 357,
+  "fp": 132,
+  "fn": 173
+ },
+ "errors": {
+  "correct": 226,
+  "type_error": 3,
+  "boundary_error": 43,
+  "boundary_type_error": 4,
+  "spurious": 42,
+  "missed": 116
+ },
+ "confusion": {
+  "Chemical->Chemical": 143,
+  "Chemical->Disease": 3,
+  "Chemical->O": 79,
+  "Disease->Disease": 83,
+  "Disease->O": 84,
+  "O->Chemical": 34,
+  "O->Disease": 55
+ },
+ "seen_unseen_recall": {
+  "seen": {
+   "recall": 0.5991735537190083,
+   "gold": 242
+  },
+  "unseen": {
+   "recall": 0.54,
+   "gold": 150
+  }
+ },
+ "run": {
+  "n_sentences": 200,
+  "n_abandoned_as_empty": 0,
+  "unaligned": 27,
+  "mean_latency_s": 0.855275,
+  "prompt_tokens": 55513,
+  "completion_tokens": 9360,
+  "failed_attempts": 0,
+  "validator_actions": 0
+ }
+}

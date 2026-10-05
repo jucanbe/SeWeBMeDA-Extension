@@ -1,0 +1,102 @@
+{
+ "dataset": "BC5CDR",
+ "kind": "original",
+ "status": "complete",
+ "annotator_model": "openai/gpt-oss-20b",
+ "request_extra": {
+  "reasoning_effort": "low"
+ },
+ "max_tokens": 4096,
+ "temperature": 0.0,
+ "seed": 0,
+ "annotator_version": "silver-2.0-vllm",
+ "prompt_version": "ner-v2",
+ "response_schema_sha256": "49ff42f6f82334779a8de4bc1f388b061a8df37149158629d8b3b122a7cb73e2",
+ "demos": [
+  "bc5cdr:train:1808",
+  "bc5cdr:train:819",
+  "bc5cdr:train:2226",
+  "bc5cdr:train:3723",
+  "bc5cdr:train:256"
+ ],
+ "n_demos": 5,
+ "demo_seed": 7,
+ "gazetteer": {
+  "min_count": 2,
+  "purity": 0.9,
+  "max_non_entity_ratio": 0.5,
+  "source": "TRAIN gold"
+ },
+ "merge_priority": [
+  "annotator",
+  "gazetteer"
+ ],
+ "items": 3597,
+ "completed": 3597,
+ "abandoned": [],
+ "output": {
+  "path": "synthetic/s_full_silver/bc5cdr/annotations.jsonl",
+  "sha256": "dee9eea7c15a100079c65c16838e2ec02e6d3a5098694d81c7de5cf8368f08c1"
+ },
+ "runtime": {
+  "hf_id": "openai/gpt-oss-20b",
+  "revision": "6cee5e81ee83917806bbde320786a8fb61efebee",
+  "vllm_version": "0.30.1rc1.dev622+gf03026a54",
+  "serve_args": [
+   "--tensor-parallel-size",
+   "1",
+   "--gpu-memory-utilization",
+   "0.9",
+   "--seed",
+   "0",
+   "--max-model-len",
+   "16384"
+  ],
+  "request_extra": {
+   "reasoning_effort": "low"
+  },
+  "tensor_parallel_size": 1,
+  "local_path": "/work/jcanodeb/VLLM_Paper/Models/huggingface/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee"
+ },
+ "environment": {
+  "hostname": "dws-13.informatik.uni-mannheim.de",
+  "platform": "Linux-6.12.0-211.43.1.el10_2.x86_64-x86_64-with-glibc2.39",
+  "python": "3.12.15",
+  "executable": "/home/jcanodeb/miniconda3/envs/vllm-paper/bin/python3",
+  "root": "/work/jcanodeb/VLLM_Paper",
+  "hf_home": "/work/jcanodeb/VLLM_Paper/Models/huggingface",
+  "recorded_at": "2026-10-03T17:30:19.818957+00:00",
+  "gpu": {
+   "available": true,
+   "gpus": [
+    {
+     "index": "0",
+     "name": "NVIDIA H100 NVL",
+     "memory_used_mb": "85571",
+     "memory_total_mb": "95830",
+     "driver": "610.57.04"
+    }
+   ],
+   "compute_processes": [
+    "623740, VLLM::EngineCore, 85562"
+   ]
+  },
+  "gpu_count": 1,
+  "torch_version": "2.13.0+cu130",
+  "vllm_version": "0.30.1rc1.dev622+gf03026a54",
+  "transformers_version": "5.17.0",
+  "huggingface_hub_version": "1.33.0",
+  "sklearn_version": "1.9.1",
+  "numpy_version": "2.3.5",
+  "cuda_version": "13.0",
+  "execution": "execution1"
+ },
+ "started_at": "2026-10-03T17:31:21.340092+00:00",
+ "finished_at": "2026-10-03T17:32:39.764360+00:00",
+ "source_file": "SyntheticDataset/BC5CDR.csv",
+ "source_sha256": "e4b999a21304a43396183074091222528eb8fb86104c9e068e4f46d0d0e5eaa1",
+ "rows": 3600,
+ "unique_sentences": 3597,
+ "duplicates_policy": "exact duplicate sentences annotated once (first occurrence)",
+ "structured_output": "json_schema"
+}

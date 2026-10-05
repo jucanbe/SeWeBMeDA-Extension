@@ -1,0 +1,138 @@
+{
+ "run_id": "17e3fd9115e8",
+ "name": "dev-E2-k3-small-BioRED",
+ "status": "complete",
+ "config": {
+  "split": "dev",
+  "subset": {
+   "n": 200,
+   "seed": 20261001
+  },
+  "protocol": "development",
+  "fewshot": {
+   "strategy": "synthetic",
+   "k": 3
+  },
+  "rag": {
+   "enabled": false,
+   "max_facts": 10,
+   "fuzzy": true
+  },
+  "validator": {
+   "enabled": false
+  },
+  "synthetic": {
+   "track": "S-full"
+  },
+  "temperature": 0.0,
+  "max_tokens": 2048,
+  "seed": 0,
+  "frozen": false,
+  "dataset": "BioRED",
+  "model": {
+   "key": "4b",
+   "id": "Qwen/Qwen3.5-4B",
+   "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+   "label": "small",
+   "base_url": "http://127.0.0.1:8000/v1",
+   "extra_body": {
+    "chat_template_kwargs": {
+     "enable_thinking": false
+    }
+   }
+  },
+  "runtime": {
+   "engine": "vllm",
+   "dtype": "bfloat16",
+   "max_model_len": 16384,
+   "tensor_parallel_size": 1,
+   "gpu_memory_utilization": 0.9,
+   "server_seed": 0,
+   "thinking": "disabled",
+   "structured_output": "json_schema",
+   "concurrency": 64,
+   "max_num_seqs": 64
+  },
+  "name": "dev-E2-k3-small-BioRED",
+  "condition": "E2"
+ },
+ "frozen_hash": "c986974c1d73d41b",
+ "prompt_version": "ner-v2",
+ "response_schema_sha256": "8b2959889f4d9eb538350122a9b0337b1db1ad9e2ef9161e3cb31e0fe8571aa5",
+ "inputs": {
+  "eval_split": "a6451c6988f32c86d5112ba4b589439104b4563494cc99f333ff989c5ca165df",
+  "subset": "2d49ce4df4909f79f24d73f65db7903ec3b30fe6e55dbfe8d4476c1fc9a5529d",
+  "resource_train": "c2f620062e1f1ed0cf1795fbff0e4c54fe2e3505ff85489f3532a6a86cab7382",
+  "synthetic_annotations": "87310959d5b588a434f825e91074620161c31cae825363a5017322a789b3d7ae"
+ },
+ "subset_manifest": "biored_dev_200_seed20261001.json",
+ "resource_splits": [
+  "train"
+ ],
+ "runtime": {
+  "hf_id": "Qwen/Qwen3.5-4B",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "vllm_version": "0.30.1rc1.dev622+gf03026a54",
+  "serve_args": [
+   "--tensor-parallel-size",
+   "1",
+   "--gpu-memory-utilization",
+   "0.9",
+   "--seed",
+   "0",
+   "--dtype",
+   "bfloat16",
+   "--max-model-len",
+   "16384",
+   "--max-num-seqs",
+   "64",
+   "--reasoning-parser",
+   "qwen3",
+   "--language-model-only"
+  ],
+  "request_extra": {
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   }
+  },
+  "tensor_parallel_size": 1,
+  "max_num_seqs": 64
+ },
+ "environment": {
+  "hostname": "dws-13.informatik.uni-mannheim.de",
+  "platform": "Linux-6.12.0-211.43.1.el10_2.x86_64-x86_64-with-glibc2.39",
+  "python": "3.12.15",
+  "executable": "/home/jcanodeb/miniconda3/envs/vllm-paper/bin/python3",
+  "root": "/work/jcanodeb/VLLM_Paper",
+  "hf_home": "/work/jcanodeb/VLLM_Paper/Models/huggingface",
+  "recorded_at": "2026-10-04T01:35:19.107709+00:00",
+  "gpu": {
+   "available": true,
+   "gpus": [
+    {
+     "index": "0",
+     "name": "NVIDIA H100 NVL",
+     "memory_used_mb": "84947",
+     "memory_total_mb": "95830",
+     "driver": "610.57.04"
+    }
+   ],
+   "compute_processes": [
+    "676770, VLLM::EngineCore, 84938"
+   ]
+  },
+  "gpu_count": 1,
+  "torch_version": "2.13.0+cu130",
+  "vllm_version": "0.30.1rc1.dev622+gf03026a54",
+  "transformers_version": "5.17.0",
+  "huggingface_hub_version": "1.33.0",
+  "sklearn_version": "1.9.1",
+  "numpy_version": "2.3.5",
+  "cuda_version": "13.0",
+  "execution": "execution2 dev"
+ },
+ "started_at": "2026-10-04T01:40:00.626276+00:00",
+ "finished_at": "2026-10-04T01:40:08.301969+00:00",
+ "updated_at": "2026-10-04T01:40:08.302176+00:00",
+ "abandoned_sentences": []
+}

@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llllll}
+\hline
+scorer & auroc & pr\_auc & false\_acceptance & false\_rejection & filtered\_f1 \\
+\hline
+W0 & 0.808 & 0.859 & 0.647 & 0.059 & 0.616 \\
+W1 & 0.800 & 0.849 & 0.619 & 0.062 & 0.618 \\
+W3 & 0.849 & 0.875 & 0.785 & 0.016 & 0.618 \\
+B0\_confidence & 0.753 & 0.793 & -- & -- & -- \\
+B1\_bert\_agreement & 0.816 & 0.847 & -- & -- & -- \\
+B2\_seen\_in\_train & 0.715 & 0.763 & -- & -- & -- \\
+B3\_logistic & 0.852 & 0.880 & -- & -- & -- \\
+B4\_gbt & 0.861 & 0.883 & -- & -- & -- \\
+\hline
+\end{tabular}
+\caption{Scorers (pooled)}
+\label{tab:scorers_pooled}
+\end{table}

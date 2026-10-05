@@ -1,0 +1,6 @@
+scorer,auroc_with_bert,auroc_without_bert
+W0,0.8202,0.7380
+W1,0.8120,0.6868
+W3,0.8630,0.7745
+B3_logistic,0.8662,0.7945
+B4_gbt,0.8749,0.7995

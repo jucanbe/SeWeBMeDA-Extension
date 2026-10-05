@@ -1,0 +1,9 @@
+src/.DS_Store
+results/.DS_Store
+synthetic/.DS_Store
+results/runs/.DS_Store
+src/experiments/.DS_Store
+results/analysis/.DS_Store
+synthetic/s_full_silver/.DS_Store
+synthetic/silver_control/.DS_Store
+.DS_Store

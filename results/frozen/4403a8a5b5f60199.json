@@ -1,0 +1,59 @@
+{
+ "frozen_hash": "4403a8a5b5f60199",
+ "config": {
+  "split": "test",
+  "subset": {
+   "n": 1000,
+   "seed": 20261001
+  },
+  "protocol": "development",
+  "fewshot": {
+   "strategy": "synthetic",
+   "k": 1
+  },
+  "rag": {
+   "enabled": false,
+   "max_facts": 10,
+   "fuzzy": true
+  },
+  "validator": {
+   "enabled": false
+  },
+  "synthetic": {
+   "track": "S-full"
+  },
+  "temperature": 0.0,
+  "max_tokens": 2048,
+  "seed": 0,
+  "frozen": true,
+  "dataset": "BC5CDR",
+  "model": {
+   "key": "9b",
+   "id": "Qwen/Qwen3.5-9B",
+   "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+   "label": "medium",
+   "base_url": "http://127.0.0.1:8000/v1",
+   "extra_body": {
+    "chat_template_kwargs": {
+     "enable_thinking": false
+    }
+   }
+  },
+  "runtime": {
+   "engine": "vllm",
+   "dtype": "bfloat16",
+   "max_model_len": 16384,
+   "tensor_parallel_size": 1,
+   "gpu_memory_utilization": 0.9,
+   "server_seed": 0,
+   "thinking": "disabled",
+   "structured_output": "json_schema",
+   "concurrency": 64,
+   "max_num_seqs": 64
+  },
+  "name": "test-E2-medium-BC5CDR",
+  "condition": "E2"
+ },
+ "note": "frozen on DEV",
+ "frozen_at": "2026-10-04T02:21:05.103294+00:00"
+}

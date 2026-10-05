@@ -1,0 +1,6 @@
+criterion,auroc,p,p_holm
+congruence,0.7453,0.0000,0.0000
+coverage,0.2317,0.0000,0.0000
+constraint,0.5074,0.0000,0.0000
+completeness,0.5228,0.0000,0.0000
+consistency,0.7967,0.0000,0.0000

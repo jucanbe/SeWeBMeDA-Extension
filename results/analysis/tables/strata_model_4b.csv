@@ -1,0 +1,4 @@
+stratum,n,n_correct,auroc,pr_auc,false_acceptance,false_rejection
+A_seen_same_type,6148,5423,0.6929,0.9262,0.9945,0.0033
+B_seen_other_type,1216,20,,,,
+C_unseen,9138,4480,0.6953,0.6794,0.5893,0.1324

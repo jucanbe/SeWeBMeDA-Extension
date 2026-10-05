@@ -1,0 +1,9 @@
+scorer,auroc,pr_auc,false_acceptance,false_rejection,filtered_f1
+W0,0.8065,0.8551,0.6370,0.0603,0.6164
+W1,0.7967,0.8435,0.6182,0.0631,0.6176
+W3,0.8511,0.8723,0.8017,0.0156,0.6154
+B0_confidence,0.7597,0.7878,,,
+B1_bert_agreement,0.8145,0.8400,,,
+B2_seen_in_train,0.7190,0.7596,,,
+B3_logistic,0.8553,0.8786,,,
+B4_gbt,0.8636,0.8806,,,
