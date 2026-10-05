@@ -60,6 +60,3 @@ The run manifests record the original runtime environment, including paths on th
 
 Tests: `python3 -m unittest discover -s tests -t .`
 
-## Citation
-
-[Add the citation of the journal article once published.]
