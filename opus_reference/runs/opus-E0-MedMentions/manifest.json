@@ -1,0 +1,55 @@
+{
+ "name": "opus-E0-MedMentions",
+ "status": "complete",
+ "config": {
+  "split": "test",
+  "subset": {
+   "n": 1000,
+   "seed": 20261001
+  },
+  "protocol": "development",
+  "fewshot": {
+   "strategy": "none",
+   "k": 0
+  },
+  "rag": {
+   "enabled": false,
+   "max_facts": 10,
+   "fuzzy": true
+  },
+  "validator": {
+   "enabled": false
+  },
+  "synthetic": {
+   "track": "S-full"
+  },
+  "temperature": 0.0,
+  "max_tokens": 2048,
+  "seed": 0,
+  "frozen": true,
+  "dataset": "MedMentions",
+  "model": {
+   "key": "opus",
+   "id": "claude-opus-5-5",
+   "label": "opus"
+  },
+  "runtime": {
+   "engine": "vllm",
+   "dtype": "bfloat16",
+   "max_model_len": 16384,
+   "tensor_parallel_size": 1,
+   "gpu_memory_utilization": 0.9,
+   "server_seed": 0,
+   "thinking": "disabled",
+   "structured_output": "json_schema",
+   "concurrency": 64,
+   "max_num_seqs": 64
+  },
+  "name": "opus-E0-MedMentions",
+  "condition": "E0"
+ },
+ "mirrors_run": "test-E0-large-MedMentions__570180ce04a2",
+ "harness": "Claude Code sub-agents, batches of up to 40 sentences, demonstrations as text",
+ "items": 1000,
+ "missing_outputs": []
+}

@@ -1,0 +1,40 @@
+{"id": "bc5cdr:test:2", "entities": []}
+{"id": "bc5cdr:test:83", "entities": []}
+{"id": "bc5cdr:test:103", "entities": []}
+{"id": "bc5cdr:test:152", "entities": []}
+{"id": "bc5cdr:test:175", "entities": []}
+{"id": "bc5cdr:test:140", "entities": []}
+{"id": "bc5cdr:test:296", "entities": []}
+{"id": "bc5cdr:test:297", "entities": []}
+{"id": "bc5cdr:test:310", "entities": []}
+{"id": "bc5cdr:test:325", "entities": []}
+{"id": "bc5cdr:test:380", "entities": []}
+{"id": "bc5cdr:test:91", "entities": [{"text": "etomidate", "type": "Chemical", "confidence": 0.98, "normalized_form": "etomidate"}]}
+{"id": "bc5cdr:test:97", "entities": [{"text": "tremor", "type": "Disease", "confidence": 0.93, "normalized_form": "tremor"}]}
+{"id": "bc5cdr:test:102", "entities": [{"text": "tremor", "type": "Disease", "confidence": 0.93, "normalized_form": "tremor"}]}
+{"id": "bc5cdr:test:148", "entities": [{"text": "warfarin", "type": "Chemical", "confidence": 0.98, "normalized_form": "warfarin"}]}
+{"id": "bc5cdr:test:190", "entities": [{"text": "carbachol", "type": "Chemical", "confidence": 0.95, "normalized_form": "carbachol"}]}
+{"id": "bc5cdr:test:113", "entities": [{"text": "muscular dystrophy", "type": "Disease", "confidence": 0.9, "normalized_form": "muscular dystrophy"}]}
+{"id": "bc5cdr:test:183", "entities": [{"text": "carbachol", "type": "Chemical", "confidence": 0.98, "normalized_form": "carbachol"}]}
+{"id": "bc5cdr:test:176", "entities": [{"text": "carbachol", "type": "Chemical", "confidence": 0.98, "normalized_form": "carbachol"}]}
+{"id": "bc5cdr:test:155", "entities": []}
+{"id": "bc5cdr:test:219", "entities": [{"text": "renal insufficiency", "type": "Disease", "confidence": 0.96, "normalized_form": "renal insufficiency"}]}
+{"id": "bc5cdr:test:262", "entities": [{"text": "hypotensive", "type": "Disease", "confidence": 0.75, "normalized_form": "hypotension"}]}
+{"id": "bc5cdr:test:274", "entities": [{"text": "digoxin", "type": "Chemical", "confidence": 0.98, "normalized_form": "digoxin"}]}
+{"id": "bc5cdr:test:266", "entities": [{"text": "hypotensive", "type": "Disease", "confidence": 0.75, "normalized_form": "hypotension"}]}
+{"id": "bc5cdr:test:289", "entities": [{"text": "hypertension", "type": "Disease", "confidence": 0.97, "normalized_form": "hypertension"}]}
+{"id": "bc5cdr:test:251", "entities": [{"text": "bromocriptine", "type": "Chemical", "confidence": 0.98, "normalized_form": "bromocriptine"}]}
+{"id": "bc5cdr:test:332", "entities": [{"text": "hypertensive", "type": "Disease", "confidence": 0.9, "normalized_form": "hypertension"}]}
+{"id": "bc5cdr:test:225", "entities": [{"text": "hyperprolactinemia", "type": "Disease", "confidence": 0.97, "normalized_form": "hyperprolactinemia"}]}
+{"id": "bc5cdr:test:288", "entities": [{"text": "isradipine", "type": "Chemical", "confidence": 0.98, "normalized_form": "isradipine"}]}
+{"id": "bc5cdr:test:396", "entities": []}
+{"id": "bc5cdr:test:349", "entities": [{"text": "calcium", "type": "Chemical", "confidence": 0.85, "normalized_form": "calcium"}, {"text": "neuronal damage", "type": "Disease", "confidence": 0.75, "normalized_form": "neuronal damage"}]}
+{"id": "bc5cdr:test:356", "entities": [{"text": "edema", "type": "Disease", "confidence": 0.85, "normalized_form": "brain edema"}]}
+{"id": "bc5cdr:test:406", "entities": [{"text": "change in mental status", "type": "Disease", "confidence": 0.45, "normalized_form": "altered mental status"}]}
+{"id": "bc5cdr:test:419", "entities": []}
+{"id": "bc5cdr:test:36", "entities": [{"text": "diphenylhydantoin", "type": "Chemical", "confidence": 0.98, "normalized_form": "phenytoin"}]}
+{"id": "bc5cdr:test:428", "entities": []}
+{"id": "bc5cdr:test:197", "entities": [{"text": "tetracycline", "type": "Chemical", "confidence": 0.98, "normalized_form": "tetracycline"}, {"text": "triglyceride", "type": "Chemical", "confidence": 0.9, "normalized_form": "triglycerides"}]}
+{"id": "bc5cdr:test:472", "entities": []}
+{"id": "bc5cdr:test:474", "entities": []}
+{"id": "bc5cdr:test:465", "entities": []}

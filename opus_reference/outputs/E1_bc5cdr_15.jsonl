@@ -1,0 +1,40 @@
+{"id": "bc5cdr:test:3092", "entities": [{"text": "acute heart failure", "type": "Disease", "confidence": 0.9, "normalized_form": "heart failure"}]}
+{"id": "bc5cdr:test:2975", "entities": [{"text": "Extrapyramidal symptom", "type": "Disease", "confidence": 0.7, "normalized_form": "extrapyramidal symptoms"}, {"text": "risperidone", "type": "Chemical", "confidence": 0.98, "normalized_form": "risperidone"}, {"text": "olanzapine", "type": "Chemical", "confidence": 0.98, "normalized_form": "olanzapine"}]}
+{"id": "bc5cdr:test:3119", "entities": [{"text": "paralysis", "type": "Disease", "confidence": 0.9, "normalized_form": "paralysis"}]}
+{"id": "bc5cdr:test:2978", "entities": [{"text": "risperidone", "type": "Chemical", "confidence": 0.98, "normalized_form": "risperidone"}, {"text": "olanzapine", "type": "Chemical", "confidence": 0.98, "normalized_form": "olanzapine"}]}
+{"id": "bc5cdr:test:3138", "entities": []}
+{"id": "bc5cdr:test:3000", "entities": [{"text": "NSAIDs", "type": "Chemical", "confidence": 0.75, "normalized_form": "non-steroidal anti-inflammatory drugs"}]}
+{"id": "bc5cdr:test:3162", "entities": [{"text": "epithelial defects", "type": "Disease", "confidence": 0.7, "normalized_form": "corneal epithelial defect"}]}
+{"id": "bc5cdr:test:3156", "entities": [{"text": "corneal ulcers", "type": "Disease", "confidence": 0.92, "normalized_form": "corneal ulcer"}, {"text": "drug abuse", "type": "Disease", "confidence": 0.7, "normalized_form": "substance-related disorders"}]}
+{"id": "bc5cdr:test:3281", "entities": []}
+{"id": "bc5cdr:test:3091", "entities": [{"text": "MR", "type": "Disease", "confidence": 0.75, "normalized_form": "mitral regurgitation"}]}
+{"id": "bc5cdr:test:3303", "entities": []}
+{"id": "bc5cdr:test:3306", "entities": []}
+{"id": "bc5cdr:test:3021", "entities": [{"text": "Quinine", "type": "Chemical", "confidence": 0.97, "normalized_form": "quinine"}, {"text": "sulfate quinine", "type": "Chemical", "confidence": 0.8, "normalized_form": "quinine sulfate"}]}
+{"id": "bc5cdr:test:2795", "entities": [{"text": "5-FU", "type": "Chemical", "confidence": 0.97, "normalized_form": "fluorouracil"}, {"text": "precordial pain", "type": "Disease", "confidence": 0.8, "normalized_form": "chest pain"}, {"text": "right bundle branch block", "type": "Disease", "confidence": 0.9, "normalized_form": "right bundle branch block"}, {"text": "FBAL", "type": "Chemical", "confidence": 0.8, "normalized_form": "alpha-fluoro-beta-alanine"}]}
+{"id": "bc5cdr:test:2960", "entities": [{"text": "galantamine", "type": "Chemical", "confidence": 0.97, "normalized_form": "galantamine"}, {"text": "autism", "type": "Disease", "confidence": 0.95, "normalized_form": "autistic disorder"}]}
+{"id": "bc5cdr:test:3206", "entities": [{"text": "inflammation", "type": "Disease", "confidence": 0.6, "normalized_form": "inflammation"}]}
+{"id": "bc5cdr:test:3322", "entities": []}
+{"id": "bc5cdr:test:3221", "entities": [{"text": "Fastblue", "type": "Chemical", "confidence": 0.55, "normalized_form": "Fast Blue"}]}
+{"id": "bc5cdr:test:2855", "entities": [{"text": "Methadone", "type": "Chemical", "confidence": 0.98, "normalized_form": "methadone"}, {"text": "potassium", "type": "Chemical", "confidence": 0.9, "normalized_form": "potassium"}, {"text": "QT prolongation", "type": "Disease", "confidence": 0.85, "normalized_form": "long QT syndrome"}]}
+{"id": "bc5cdr:test:3225", "entities": [{"text": "bladder inflammation", "type": "Disease", "confidence": 0.65, "normalized_form": "cystitis"}]}
+{"id": "bc5cdr:test:3228", "entities": [{"text": "Azathioprine", "type": "Chemical", "confidence": 0.98, "normalized_form": "azathioprine"}]}
+{"id": "bc5cdr:test:2802", "entities": [{"text": "FBAL", "type": "Chemical", "confidence": 0.8, "normalized_form": "alpha-fluoro-beta-alanine"}, {"text": "5-FU-induced", "type": "Chemical", "confidence": 0.8, "normalized_form": "fluorouracil"}, {"text": "cardiotoxicity", "type": "Disease", "confidence": 0.9, "normalized_form": "cardiotoxicity"}]}
+{"id": "bc5cdr:test:3022", "entities": [{"text": "PVC", "type": "Disease", "confidence": 0.7, "normalized_form": "ventricular premature complexes"}, {"text": "potassium", "type": "Chemical", "confidence": 0.92, "normalized_form": "potassium"}]}
+{"id": "bc5cdr:test:3086", "entities": [{"text": "panic attack", "type": "Disease", "confidence": 0.85, "normalized_form": "panic disorder"}, {"text": "caffeine", "type": "Chemical", "confidence": 0.65, "normalized_form": "caffeine"}]}
+{"id": "bc5cdr:test:3256", "entities": [{"text": "hypotension", "type": "Disease", "confidence": 0.95, "normalized_form": "hypotension"}]}
+{"id": "bc5cdr:test:3360", "entities": []}
+{"id": "bc5cdr:test:2902", "entities": [{"text": "Minocycline-induced", "type": "Chemical", "confidence": 0.85, "normalized_form": "minocycline"}, {"text": "vasculitis", "type": "Disease", "confidence": 0.95, "normalized_form": "vasculitis"}, {"text": "polyarteritis nodosa", "type": "Disease", "confidence": 0.95, "normalized_form": "polyarteritis nodosa"}]}
+{"id": "bc5cdr:test:3175", "entities": [{"text": "ATIN", "type": "Disease", "confidence": 0.85, "normalized_form": "acute tubulointerstitial nephritis"}]}
+{"id": "bc5cdr:test:2976", "entities": [{"text": "weight gain", "type": "Disease", "confidence": 0.9, "normalized_form": "weight gain"}, {"text": "olanzapine", "type": "Chemical", "confidence": 0.98, "normalized_form": "olanzapine"}, {"text": "risperidone", "type": "Chemical", "confidence": 0.98, "normalized_form": "risperidone"}]}
+{"id": "bc5cdr:test:3386", "entities": []}
+{"id": "bc5cdr:test:3108", "entities": [{"text": "ammonia", "type": "Chemical", "confidence": 0.92, "normalized_form": "ammonia"}, {"text": "leukocytosis", "type": "Disease", "confidence": 0.92, "normalized_form": "leukocytosis"}]}
+{"id": "bc5cdr:test:3118", "entities": [{"text": "vocal nerve palsies", "type": "Disease", "confidence": 0.75, "normalized_form": "vocal cord paralysis"}]}
+{"id": "bc5cdr:test:2875", "entities": [{"text": "chlorpromazine-induced", "type": "Chemical", "confidence": 0.9, "normalized_form": "chlorpromazine"}, {"text": "EPS", "type": "Disease", "confidence": 0.9, "normalized_form": "extrapyramidal symptoms"}, {"text": "schizophrenic", "type": "Disease", "confidence": 0.85, "normalized_form": "schizophrenia"}]}
+{"id": "bc5cdr:test:3166", "entities": [{"text": "substance abuse", "type": "Disease", "confidence": 0.85, "normalized_form": "substance-related disorders"}]}
+{"id": "bc5cdr:test:2738", "entities": [{"text": "venous thromboembolism", "type": "Disease", "confidence": 0.95, "normalized_form": "venous thromboembolism"}, {"text": "stroke", "type": "Disease", "confidence": 0.95, "normalized_form": "stroke"}, {"text": "breast cancer", "type": "Disease", "confidence": 0.95, "normalized_form": "breast neoplasms"}, {"text": "gallbladder disease", "type": "Disease", "confidence": 0.9, "normalized_form": "gallbladder diseases"}]}
+{"id": "bc5cdr:test:3419", "entities": []}
+{"id": "bc5cdr:test:3173", "entities": [{"text": "Non-steroidal anti-inflammatory drugs", "type": "Chemical", "confidence": 0.7, "normalized_form": "non-steroidal anti-inflammatory drugs"}, {"text": "interstitial nephritis", "type": "Disease", "confidence": 0.93, "normalized_form": "interstitial nephritis"}]}
+{"id": "bc5cdr:test:3423", "entities": [{"text": "opiate", "type": "Chemical", "confidence": 0.85, "normalized_form": "opiate alkaloids"}]}
+{"id": "bc5cdr:test:3029", "entities": [{"text": "penicillamine", "type": "Chemical", "confidence": 0.97, "normalized_form": "penicillamine"}, {"text": "lichenoid dermatitis", "type": "Disease", "confidence": 0.85, "normalized_form": "lichenoid eruptions"}, {"text": "zinc acetate", "type": "Chemical", "confidence": 0.95, "normalized_form": "zinc acetate"}]}
+{"id": "bc5cdr:test:3325", "entities": [{"text": "aprotinin", "type": "Chemical", "confidence": 0.97, "normalized_form": "aprotinin"}]}

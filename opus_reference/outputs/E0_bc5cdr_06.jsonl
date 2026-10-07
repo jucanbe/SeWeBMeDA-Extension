@@ -1,0 +1,100 @@
+{"id": "bc5cdr:test:2692", "entities": [{"text": "ESRD", "type": "Disease", "confidence": 0.95, "normalized_form": "end-stage renal disease"}, {"text": "aspirin", "type": "Chemical", "confidence": 0.98, "normalized_form": "aspirin"}, {"text": "vascular nephropathy", "type": "Disease", "confidence": 0.85}]}
+{"id": "bc5cdr:test:3162", "entities": [{"text": "epithelial defects", "type": "Disease", "confidence": 0.5}]}
+{"id": "bc5cdr:test:3281", "entities": []}
+{"id": "bc5cdr:test:3156", "entities": [{"text": "corneal ulcers", "type": "Disease", "confidence": 0.95, "normalized_form": "corneal ulcer"}, {"text": "drug abuse", "type": "Disease", "confidence": 0.85}]}
+{"id": "bc5cdr:test:2978", "entities": [{"text": "risperidone", "type": "Chemical", "confidence": 0.98}, {"text": "olanzapine", "type": "Chemical", "confidence": 0.98}]}
+{"id": "bc5cdr:test:3303", "entities": []}
+{"id": "bc5cdr:test:3306", "entities": []}
+{"id": "bc5cdr:test:3022", "entities": [{"text": "PVC", "type": "Disease", "confidence": 0.5, "normalized_form": "premature ventricular contractions"}, {"text": "potassium", "type": "Chemical", "confidence": 0.9}]}
+{"id": "bc5cdr:test:3175", "entities": [{"text": "ATIN", "type": "Disease", "confidence": 0.9, "normalized_form": "acute tubulointerstitial nephritis"}]}
+{"id": "bc5cdr:test:3021", "entities": [{"text": "Quinine", "type": "Chemical", "confidence": 0.97, "normalized_form": "quinine"}, {"text": "sulfate quinine", "type": "Chemical", "confidence": 0.8, "normalized_form": "quinine sulfate"}]}
+{"id": "bc5cdr:test:3199", "entities": []}
+{"id": "bc5cdr:test:3167", "entities": [{"text": "Myo-inositol-1-phosphate", "type": "Chemical", "confidence": 0.8}]}
+{"id": "bc5cdr:test:3034", "entities": [{"text": "drop in blood pressure", "type": "Disease", "confidence": 0.6, "normalized_form": "hypotension"}, {"text": "GTN", "type": "Chemical", "confidence": 0.95, "normalized_form": "glyceryl trinitrate"}]}
+{"id": "bc5cdr:test:3218", "entities": [{"text": "CYP", "type": "Chemical", "confidence": 0.85, "normalized_form": "cyclophosphamide"}, {"text": "cystitis", "type": "Disease", "confidence": 0.95}]}
+{"id": "bc5cdr:test:3322", "entities": []}
+{"id": "bc5cdr:test:3206", "entities": [{"text": "local anesthetics", "type": "Chemical", "confidence": 0.6}, {"text": "inflammation", "type": "Disease", "confidence": 0.8}]}
+{"id": "bc5cdr:test:3221", "entities": [{"text": "Fastblue", "type": "Chemical", "confidence": 0.6}]}
+{"id": "bc5cdr:test:2783", "entities": [{"text": "mirtazapine", "type": "Chemical", "confidence": 0.98}, {"text": "RLS", "type": "Disease", "confidence": 0.95, "normalized_form": "restless legs syndrome"}, {"text": "domperione", "type": "Chemical", "confidence": 0.9, "normalized_form": "domperidone"}]}
+{"id": "bc5cdr:test:2929", "entities": [{"text": "acute renal failure", "type": "Disease", "confidence": 0.97}, {"text": "anthraquinone", "type": "Chemical", "confidence": 0.9}]}
+{"id": "bc5cdr:test:3225", "entities": [{"text": "bladder inflammation", "type": "Disease", "confidence": 0.6, "normalized_form": "cystitis"}]}
+{"id": "bc5cdr:test:3091", "entities": [{"text": "MR", "type": "Disease", "confidence": 0.8, "normalized_form": "mitral regurgitation"}]}
+{"id": "bc5cdr:test:3228", "entities": [{"text": "Azathioprine", "type": "Chemical", "confidence": 0.98, "normalized_form": "azathioprine"}]}
+{"id": "bc5cdr:test:2623", "entities": [{"text": "clozapine", "type": "Chemical", "confidence": 0.98}, {"text": "olanzapine", "type": "Chemical", "confidence": 0.98}, {"text": "risperidone", "type": "Chemical", "confidence": 0.98}, {"text": "insulin resistance", "type": "Disease", "confidence": 0.85}]}
+{"id": "bc5cdr:test:3359", "entities": [{"text": "calcium", "type": "Chemical", "confidence": 0.85}]}
+{"id": "bc5cdr:test:3256", "entities": [{"text": "hypotension", "type": "Disease", "confidence": 0.95}]}
+{"id": "bc5cdr:test:2875", "entities": [{"text": "chlorpromazine", "type": "Chemical", "confidence": 0.98}, {"text": "EPS", "type": "Disease", "confidence": 0.9, "normalized_form": "extrapyramidal symptoms"}, {"text": "schizophrenic", "type": "Disease", "confidence": 0.85, "normalized_form": "schizophrenia"}]}
+{"id": "bc5cdr:test:3386", "entities": []}
+{"id": "bc5cdr:test:2960", "entities": [{"text": "galantamine", "type": "Chemical", "confidence": 0.98}, {"text": "autism", "type": "Disease", "confidence": 0.95}]}
+{"id": "bc5cdr:test:3118", "entities": [{"text": "vocal nerve palsies", "type": "Disease", "confidence": 0.75}, {"text": "local anesthetics", "type": "Chemical", "confidence": 0.6}]}
+{"id": "bc5cdr:test:2957", "entities": [{"text": "pilocarpine", "type": "Chemical", "confidence": 0.97}, {"text": "temporal lobe epilepsy", "type": "Disease", "confidence": 0.95}]}
+{"id": "bc5cdr:test:3166", "entities": [{"text": "substance abuse", "type": "Disease", "confidence": 0.8}]}
+{"id": "bc5cdr:test:3219", "entities": [{"text": "CYP", "type": "Chemical", "confidence": 0.85, "normalized_form": "cyclophosphamide"}, {"text": "cystitis", "type": "Disease", "confidence": 0.95}]}
+{"id": "bc5cdr:test:3282", "entities": [{"text": "neurotoxic", "type": "Disease", "confidence": 0.6, "normalized_form": "neurotoxicity"}, {"text": "thalidomide", "type": "Chemical", "confidence": 0.98}]}
+{"id": "bc5cdr:test:3295", "entities": [{"text": "CAD", "type": "Disease", "confidence": 0.85, "normalized_form": "coronary artery disease"}]}
+{"id": "bc5cdr:test:2976", "entities": [{"text": "weight gain", "type": "Disease", "confidence": 0.85}, {"text": "olanzapine", "type": "Chemical", "confidence": 0.98}, {"text": "risperidone", "type": "Chemical", "confidence": 0.98}]}
+{"id": "bc5cdr:test:2975", "entities": [{"text": "Extrapyramidal symptom", "type": "Disease", "confidence": 0.8}, {"text": "risperidone", "type": "Chemical", "confidence": 0.98}, {"text": "olanzapine", "type": "Chemical", "confidence": 0.98}]}
+{"id": "bc5cdr:test:3419", "entities": []}
+{"id": "bc5cdr:test:3190", "entities": [{"text": "Lamivudine", "type": "Chemical", "confidence": 0.98, "normalized_form": "lamivudine"}, {"text": "chronic hepatitis B", "type": "Disease", "confidence": 0.95}]}
+{"id": "bc5cdr:test:3325", "entities": [{"text": "aprotinin", "type": "Chemical", "confidence": 0.97}]}
+{"id": "bc5cdr:test:2855", "entities": [{"text": "Methadone", "type": "Chemical", "confidence": 0.98, "normalized_form": "methadone"}, {"text": "potassium", "type": "Chemical", "confidence": 0.85}, {"text": "QT prolongation", "type": "Disease", "confidence": 0.9}]}
+{"id": "bc5cdr:test:3038", "entities": [{"text": "GTN", "type": "Chemical", "confidence": 0.95, "normalized_form": "glyceryl trinitrate"}, {"text": "drop in blood pressure", "type": "Disease", "confidence": 0.5, "normalized_form": "hypotension"}, {"text": "atropine sulphate", "type": "Chemical", "confidence": 0.95}]}
+{"id": "bc5cdr:test:3339", "entities": [{"text": "( + ) -propranolol", "type": "Chemical", "confidence": 0.9, "normalized_form": "propranolol"}]}
+{"id": "bc5cdr:test:3379", "entities": [{"text": "myositis", "type": "Disease", "confidence": 0.95}]}
+{"id": "bc5cdr:test:3397", "entities": [{"text": "aspirin", "type": "Chemical", "confidence": 0.98}]}
+{"id": "bc5cdr:test:3407", "entities": [{"text": "Argatroban", "type": "Chemical", "confidence": 0.98, "normalized_form": "argatroban"}]}
+{"id": "bc5cdr:test:3278", "entities": [{"text": "paresthesias", "type": "Disease", "confidence": 0.9}, {"text": "leg cramps", "type": "Disease", "confidence": 0.85}]}
+{"id": "bc5cdr:test:3173", "entities": [{"text": "Non-steroidal anti-inflammatory drugs", "type": "Chemical", "confidence": 0.85}, {"text": "acute interstitial nephritis", "type": "Disease", "confidence": 0.95}]}
+{"id": "bc5cdr:test:3267", "entities": [{"text": "lactic acidosis", "type": "Disease", "confidence": 0.95}, {"text": "immune reconstitution syndrome", "type": "Disease", "confidence": 0.85}]}
+{"id": "bc5cdr:test:3415", "entities": [{"text": "argatroban", "type": "Chemical", "confidence": 0.97}]}
+{"id": "bc5cdr:test:3405", "entities": [{"text": "hepatic hypoperfusion", "type": "Disease", "confidence": 0.75}]}
+{"id": "bc5cdr:test:3474", "entities": []}
+{"id": "bc5cdr:test:3170", "entities": [{"text": "Lithium", "type": "Chemical", "confidence": 0.97, "normalized_form": "lithium"}, {"text": "valproate", "type": "Chemical", "confidence": 0.97}]}
+{"id": "bc5cdr:test:3502", "entities": []}
+{"id": "bc5cdr:test:3418", "entities": [{"text": "Methadone", "type": "Chemical", "confidence": 0.98, "normalized_form": "methadone"}]}
+{"id": "bc5cdr:test:3423", "entities": [{"text": "opiate", "type": "Chemical", "confidence": 0.85}]}
+{"id": "bc5cdr:test:3365", "entities": [{"text": "hypotension", "type": "Disease", "confidence": 0.55}, {"text": "remifentanil", "type": "Chemical", "confidence": 0.98}]}
+{"id": "bc5cdr:test:3426", "entities": [{"text": "cerebral ischemic infarction", "type": "Disease", "confidence": 0.92}]}
+{"id": "bc5cdr:test:3201", "entities": [{"text": "lamivudine", "type": "Chemical", "confidence": 0.95}, {"text": "chronic hepatitis B", "type": "Disease", "confidence": 0.95}]}
+{"id": "bc5cdr:test:3358", "entities": [{"text": "lithium", "type": "Chemical", "confidence": 0.95}, {"text": "hypercalcemic", "type": "Disease", "confidence": 0.85, "normalized_form": "hypercalcemia"}]}
+{"id": "bc5cdr:test:2316", "entities": [{"text": "amiodarone", "type": "Chemical", "confidence": 0.98}, {"text": "sotalol", "type": "Chemical", "confidence": 0.97}, {"text": "digoxin", "type": "Chemical", "confidence": 0.97}, {"text": "calcium", "type": "Chemical", "confidence": 0.4}]}
+{"id": "bc5cdr:test:3075", "entities": [{"text": "succimer", "type": "Chemical", "confidence": 0.97}, {"text": "Pb", "type": "Chemical", "confidence": 0.95, "normalized_form": "lead"}, {"text": "cognitive and affective dysfunction", "type": "Disease", "confidence": 0.55}]}
+{"id": "bc5cdr:test:3353", "entities": [{"text": "lithium", "type": "Chemical", "confidence": 0.97}, {"text": "hyperparathyroidism", "type": "Disease", "confidence": 0.97}]}
+{"id": "bc5cdr:test:3250", "entities": []}
+{"id": "bc5cdr:test:3464", "entities": [{"text": "delirium", "type": "Disease", "confidence": 0.95}]}
+{"id": "bc5cdr:test:2738", "entities": [{"text": "venous thromboembolism", "type": "Disease", "confidence": 0.95}, {"text": "coronary event", "type": "Disease", "confidence": 0.5}, {"text": "stroke", "type": "Disease", "confidence": 0.95}, {"text": "breast cancer", "type": "Disease", "confidence": 0.97}, {"text": "gallbladder disease", "type": "Disease", "confidence": 0.9}]}
+{"id": "bc5cdr:test:3237", "entities": [{"text": "Levetiracetam", "type": "Chemical", "confidence": 0.98, "normalized_form": "levetiracetam"}, {"text": "phenobarbital", "type": "Chemical", "confidence": 0.98}, {"text": "epilepsy", "type": "Disease", "confidence": 0.85}]}
+{"id": "bc5cdr:test:3589", "entities": []}
+{"id": "bc5cdr:test:3396", "entities": [{"text": "aspirin", "type": "Chemical", "confidence": 0.98}, {"text": "CVD", "type": "Disease", "confidence": 0.85, "normalized_form": "cardiovascular disease"}]}
+{"id": "bc5cdr:test:3367", "entities": [{"text": "Nonalcoholic fatty liver disease", "type": "Disease", "confidence": 0.95}, {"text": "valproate", "type": "Chemical", "confidence": 0.98}]}
+{"id": "bc5cdr:test:3257", "entities": [{"text": "epinephrine", "type": "Chemical", "confidence": 0.97}, {"text": "hypotension", "type": "Disease", "confidence": 0.95}]}
+{"id": "bc5cdr:test:3478", "entities": []}
+{"id": "bc5cdr:test:3078", "entities": [{"text": "succimer", "type": "Chemical", "confidence": 0.97}, {"text": "Pb", "type": "Chemical", "confidence": 0.95, "normalized_form": "lead"}]}
+{"id": "bc5cdr:test:3029", "entities": [{"text": "penicillamine", "type": "Chemical", "confidence": 0.98}, {"text": "lichenoid dermatitis", "type": "Disease", "confidence": 0.93}, {"text": "zinc acetate", "type": "Chemical", "confidence": 0.95}]}
+{"id": "bc5cdr:test:3403", "entities": [{"text": "argatroban", "type": "Chemical", "confidence": 0.98}, {"text": "HIT", "type": "Disease", "confidence": 0.9, "normalized_form": "heparin-induced thrombocytopenia"}]}
+{"id": "bc5cdr:test:3065", "entities": [{"text": "hypokalemia", "type": "Disease", "confidence": 0.97}, {"text": "VAL", "type": "Chemical", "confidence": 0.85, "normalized_form": "valsartan"}, {"text": "HCTZ", "type": "Chemical", "confidence": 0.93, "normalized_form": "hydrochlorothiazide"}]}
+{"id": "bc5cdr:test:3633", "entities": []}
+{"id": "bc5cdr:test:3518", "entities": [{"text": "coma", "type": "Disease", "confidence": 0.9}]}
+{"id": "bc5cdr:test:3297", "entities": [{"text": "glimepiride", "type": "Chemical", "confidence": 0.98}, {"text": "gliclazide", "type": "Chemical", "confidence": 0.98}]}
+{"id": "bc5cdr:test:3560", "entities": []}
+{"id": "bc5cdr:test:3114", "entities": [{"text": "Piperacillin", "type": "Chemical", "confidence": 0.98, "normalized_form": "piperacillin"}, {"text": "encephalopathy", "type": "Disease", "confidence": 0.95}, {"text": "uremic", "type": "Disease", "confidence": 0.8, "normalized_form": "uremia"}]}
+{"id": "bc5cdr:test:3315", "entities": [{"text": "aprotinin", "type": "Chemical", "confidence": 0.97}, {"text": "tranexamic acid", "type": "Chemical", "confidence": 0.97}]}
+{"id": "bc5cdr:test:3549", "entities": []}
+{"id": "bc5cdr:test:3553", "entities": [{"text": "cocaine", "type": "Chemical", "confidence": 0.9}]}
+{"id": "bc5cdr:test:3316", "entities": [{"text": "aprotinin", "type": "Chemical", "confidence": 0.97}, {"text": "tranexamic acid", "type": "Chemical", "confidence": 0.97}]}
+{"id": "bc5cdr:test:3514", "entities": [{"text": "posterior reversible encephalopathy syndrome", "type": "Disease", "confidence": 0.95}]}
+{"id": "bc5cdr:test:3561", "entities": [{"text": "Fluoxetine", "type": "Chemical", "confidence": 0.98, "normalized_form": "fluoxetine"}]}
+{"id": "bc5cdr:test:3573", "entities": [{"text": "PB", "type": "Chemical", "confidence": 0.85, "normalized_form": "phenobarbital"}]}
+{"id": "bc5cdr:test:3460", "entities": [{"text": "Flecainide", "type": "Chemical", "confidence": 0.98, "normalized_form": "flecainide"}, {"text": "atrial fibrillation", "type": "Disease", "confidence": 0.97}]}
+{"id": "bc5cdr:test:2919", "entities": [{"text": "eslicarbazepine acetate", "type": "Chemical", "confidence": 0.97}, {"text": "BIA 2-093", "type": "Chemical", "confidence": 0.9, "normalized_form": "eslicarbazepine acetate"}, {"text": "seizures", "type": "Disease", "confidence": 0.95}, {"text": "picrotoxin", "type": "Chemical", "confidence": 0.97}]}
+{"id": "bc5cdr:test:3406", "entities": [{"text": "heart failure", "type": "Disease", "confidence": 0.95}, {"text": "renal dysfunction", "type": "Disease", "confidence": 0.9}, {"text": "obesity", "type": "Disease", "confidence": 0.9}]}
+{"id": "bc5cdr:test:3385", "entities": [{"text": "aspirin", "type": "Chemical", "confidence": 0.98}, {"text": "myocardial infarctions", "type": "Disease", "confidence": 0.95, "normalized_form": "myocardial infarction"}, {"text": "strokes", "type": "Disease", "confidence": 0.93, "normalized_form": "stroke"}]}
+{"id": "bc5cdr:test:3342", "entities": [{"text": "( - ) -propranolol", "type": "Chemical", "confidence": 0.9, "normalized_form": "propranolol"}, {"text": "( + ) -propranolol", "type": "Chemical", "confidence": 0.9, "normalized_form": "propranolol"}]}
+{"id": "bc5cdr:test:3597", "entities": [{"text": "ileal perforation", "type": "Disease", "confidence": 0.9}]}
+{"id": "bc5cdr:test:3399", "entities": [{"text": "Aspirin", "type": "Chemical", "confidence": 0.98, "normalized_form": "aspirin"}, {"text": "myocardial infarction", "type": "Disease", "confidence": 0.97}, {"text": "strokes", "type": "Disease", "confidence": 0.93, "normalized_form": "stroke"}]}
+{"id": "bc5cdr:test:3468", "entities": [{"text": "flecainide", "type": "Chemical", "confidence": 0.98}, {"text": "delirium", "type": "Disease", "confidence": 0.95}]}
+{"id": "bc5cdr:test:3203", "entities": [{"text": "branch retinal vein occlusion", "type": "Disease", "confidence": 0.95}, {"text": "fluoxetine", "type": "Chemical", "confidence": 0.98}, {"text": "hypertension", "type": "Disease", "confidence": 0.9}]}
+{"id": "bc5cdr:test:3615", "entities": []}
+{"id": "bc5cdr:test:3603", "entities": [{"text": "HIV", "type": "Disease", "confidence": 0.4, "normalized_form": "HIV infection"}]}
+{"id": "bc5cdr:test:2302", "entities": [{"text": "adenosine", "type": "Chemical", "confidence": 0.75}, {"text": "2-p- ( 2-carboxyethyl ) phenethylamino-5'-N-ethylcarboxamidoadenosine", "type": "Chemical", "confidence": 0.85}, {"text": "CGS 21680", "type": "Chemical", "confidence": 0.9}, {"text": "N6-cyclopentyladenosine", "type": "Chemical", "confidence": 0.95}, {"text": "CPA", "type": "Chemical", "confidence": 0.9}, {"text": "5'-N-ethylcarboxamidoadenosine", "type": "Chemical", "confidence": 0.95}, {"text": "NECA", "type": "Chemical", "confidence": 0.9}, {"text": "cocaine", "type": "Chemical", "confidence": 0.97}]}
+{"id": "bc5cdr:test:3630", "entities": [{"text": "Seizures", "type": "Disease", "confidence": 0.95, "normalized_form": "seizures"}]}

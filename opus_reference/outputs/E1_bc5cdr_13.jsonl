@@ -1,0 +1,40 @@
+{"id": "bc5cdr:test:2897", "entities": [{"text": "learning decrement", "type": "Disease", "confidence": 0.4, "normalized_form": "learning disability"}]}
+{"id": "bc5cdr:test:2904", "entities": []}
+{"id": "bc5cdr:test:2571", "entities": [{"text": "ST elevation", "type": "Disease", "confidence": 0.8, "normalized_form": "ST elevation"}, {"text": "chest discomfort", "type": "Disease", "confidence": 0.8, "normalized_form": "chest pain"}, {"text": "diltiazem", "type": "Chemical", "confidence": 0.98, "normalized_form": "diltiazem"}]}
+{"id": "bc5cdr:test:2574", "entities": [{"text": "5-Hydroxytryptamine", "type": "Chemical", "confidence": 0.95, "normalized_form": "serotonin"}, {"text": "5-HT", "type": "Chemical", "confidence": 0.6, "normalized_form": "serotonin"}]}
+{"id": "bc5cdr:test:2914", "entities": []}
+{"id": "bc5cdr:test:2915", "entities": []}
+{"id": "bc5cdr:test:2652", "entities": [{"text": "Evans Blue", "type": "Chemical", "confidence": 0.9, "normalized_form": "Evans blue"}, {"text": "HTN", "type": "Disease", "confidence": 0.85, "normalized_form": "hypertension"}]}
+{"id": "bc5cdr:test:2840", "entities": [{"text": "LV hypertrophy", "type": "Disease", "confidence": 0.9, "normalized_form": "left ventricular hypertrophy"}]}
+{"id": "bc5cdr:test:2602", "entities": [{"text": "gentamicin", "type": "Chemical", "confidence": 0.98, "normalized_form": "gentamicin"}, {"text": "interstitial fibrosis", "type": "Disease", "confidence": 0.85, "normalized_form": "fibrosis"}]}
+{"id": "bc5cdr:test:2847", "entities": [{"text": "methadone", "type": "Chemical", "confidence": 0.98, "normalized_form": "methadone"}]}
+{"id": "bc5cdr:test:2953", "entities": []}
+{"id": "bc5cdr:test:2581", "entities": [{"text": "catalepsy", "type": "Disease", "confidence": 0.95, "normalized_form": "catalepsy"}, {"text": "apomorphine", "type": "Chemical", "confidence": 0.97, "normalized_form": "apomorphine"}, {"text": "stereotypy", "type": "Disease", "confidence": 0.5, "normalized_form": "stereotyped behavior"}]}
+{"id": "bc5cdr:test:2604", "entities": [{"text": "gentamicin", "type": "Chemical", "confidence": 0.98, "normalized_form": "gentamicin"}, {"text": "PDTC", "type": "Chemical", "confidence": 0.95, "normalized_form": "pyrrolidine dithiocarbamate"}, {"text": "NaCl", "type": "Chemical", "confidence": 0.9, "normalized_form": "sodium chloride"}]}
+{"id": "bc5cdr:test:2965", "entities": []}
+{"id": "bc5cdr:test:2811", "entities": [{"text": "DOX", "type": "Chemical", "confidence": 0.97, "normalized_form": "doxorubicin"}]}
+{"id": "bc5cdr:test:2496", "entities": [{"text": "methamphetamine", "type": "Chemical", "confidence": 0.97, "normalized_form": "methamphetamine"}, {"text": "cerebral deterioration", "type": "Disease", "confidence": 0.45, "normalized_form": "brain diseases"}, {"text": "impaired memory", "type": "Disease", "confidence": 0.55, "normalized_form": "memory disorders"}]}
+{"id": "bc5cdr:test:2629", "entities": [{"text": "primary systemic amyloidosis", "type": "Disease", "confidence": 0.9, "normalized_form": "immunoglobulin light-chain amyloidosis"}, {"text": "AL", "type": "Disease", "confidence": 0.8, "normalized_form": "immunoglobulin light-chain amyloidosis"}]}
+{"id": "bc5cdr:test:2870", "entities": [{"text": "LNNA", "type": "Chemical", "confidence": 0.8, "normalized_form": "nitroarginine"}, {"text": "superoxide", "type": "Chemical", "confidence": 0.95, "normalized_form": "superoxide"}]}
+{"id": "bc5cdr:test:2603", "entities": [{"text": "gentamicin", "type": "Chemical", "confidence": 0.98, "normalized_form": "gentamicin"}, {"text": "pyrrolidine dithiocarbamate", "type": "Chemical", "confidence": 0.97, "normalized_form": "pyrrolidine dithiocarbamate"}, {"text": "PDTC", "type": "Chemical", "confidence": 0.95, "normalized_form": "pyrrolidine dithiocarbamate"}]}
+{"id": "bc5cdr:test:2983", "entities": []}
+{"id": "bc5cdr:test:2621", "entities": [{"text": "clozapine", "type": "Chemical", "confidence": 0.98, "normalized_form": "clozapine"}, {"text": "olanzapine", "type": "Chemical", "confidence": 0.98, "normalized_form": "olanzapine"}, {"text": "risperidone", "type": "Chemical", "confidence": 0.98, "normalized_form": "risperidone"}]}
+{"id": "bc5cdr:test:2497", "entities": [{"text": "MA", "type": "Chemical", "confidence": 0.85, "normalized_form": "methamphetamine"}, {"text": "cell death", "type": "Disease", "confidence": 0.4, "normalized_form": "cell death"}]}
+{"id": "bc5cdr:test:2988", "entities": []}
+{"id": "bc5cdr:test:2995", "entities": []}
+{"id": "bc5cdr:test:2628", "entities": [{"text": "Acute renal insufficiency", "type": "Disease", "confidence": 0.9, "normalized_form": "acute kidney injury"}, {"text": "melphalan", "type": "Chemical", "confidence": 0.98, "normalized_form": "melphalan"}, {"text": "primary systemic amyloidosis", "type": "Disease", "confidence": 0.9, "normalized_form": "immunoglobulin light-chain amyloidosis"}]}
+{"id": "bc5cdr:test:2774", "entities": [{"text": "Erdosteine", "type": "Chemical", "confidence": 0.97, "normalized_form": "erdosteine"}, {"text": "tubular damage", "type": "Disease", "confidence": 0.75, "normalized_form": "kidney tubular necrosis"}]}
+{"id": "bc5cdr:test:2700", "entities": [{"text": "epileptic", "type": "Disease", "confidence": 0.9, "normalized_form": "epilepsy"}, {"text": "cycloheximide", "type": "Chemical", "confidence": 0.97, "normalized_form": "cycloheximide"}]}
+{"id": "bc5cdr:test:2796", "entities": [{"text": "precordial pain", "type": "Disease", "confidence": 0.85, "normalized_form": "chest pain"}, {"text": "5-FU", "type": "Chemical", "confidence": 0.98, "normalized_form": "fluorouracil"}]}
+{"id": "bc5cdr:test:2905", "entities": [{"text": "polyarteritis nodosa", "type": "Disease", "confidence": 0.97, "normalized_form": "polyarteritis nodosa"}]}
+{"id": "bc5cdr:test:3039", "entities": []}
+{"id": "bc5cdr:test:2648", "entities": [{"text": "brain injury", "type": "Disease", "confidence": 0.85, "normalized_form": "brain injuries"}, {"text": "2,3,5-triphenyltetrazolium chloride", "type": "Chemical", "confidence": 0.95, "normalized_form": "triphenyltetrazolium chloride"}, {"text": "edema", "type": "Disease", "confidence": 0.85, "normalized_form": "brain edema"}]}
+{"id": "bc5cdr:test:2945", "entities": [{"text": "CAA", "type": "Chemical", "confidence": 0.95, "normalized_form": "chloroacetaldehyde"}, {"text": "thiols", "type": "Chemical", "confidence": 0.8, "normalized_form": "sulfhydryl compounds"}, {"text": "toxicity", "type": "Disease", "confidence": 0.6, "normalized_form": "toxicity"}]}
+{"id": "bc5cdr:test:3054", "entities": []}
+{"id": "bc5cdr:test:2692", "entities": [{"text": "ESRD", "type": "Disease", "confidence": 0.97, "normalized_form": "end-stage renal disease"}, {"text": "aspirin", "type": "Chemical", "confidence": 0.98, "normalized_form": "aspirin"}, {"text": "vascular nephropathy", "type": "Disease", "confidence": 0.8, "normalized_form": "kidney diseases"}]}
+{"id": "bc5cdr:test:2841", "entities": [{"text": "metoprolol", "type": "Chemical", "confidence": 0.98, "normalized_form": "metoprolol"}, {"text": "atropine", "type": "Chemical", "confidence": 0.98, "normalized_form": "atropine"}]}
+{"id": "bc5cdr:test:2706", "entities": [{"text": "Pilo", "type": "Chemical", "confidence": 0.85, "normalized_form": "pilocarpine"}, {"text": "CHX+Pilo", "type": "Chemical", "confidence": 0.5, "normalized_form": "cycloheximide; pilocarpine"}]}
+{"id": "bc5cdr:test:3057", "entities": []}
+{"id": "bc5cdr:test:2912", "entities": [{"text": "cirrhotic diseases", "type": "Disease", "confidence": 0.6, "normalized_form": "liver cirrhosis"}]}
+{"id": "bc5cdr:test:2612", "entities": [{"text": "tubulointerstitial nephritis", "type": "Disease", "confidence": 0.95, "normalized_form": "nephritis, interstitial"}, {"text": "gentamicin", "type": "Chemical", "confidence": 0.98, "normalized_form": "gentamicin"}]}
+{"id": "bc5cdr:test:2846", "entities": [{"text": "QT interval prolongation", "type": "Disease", "confidence": 0.9, "normalized_form": "long QT syndrome"}, {"text": "methadone", "type": "Chemical", "confidence": 0.98, "normalized_form": "methadone"}]}

@@ -1,0 +1,3074 @@
+{
+ "weights": {
+  "W_cal": {
+   "congruence": 0.2,
+   "coverage": 0.0,
+   "constraint": 0.05,
+   "completeness": 0.3,
+   "consistency": 0.45
+  },
+  "W_eq": {
+   "congruence": 0.2,
+   "coverage": 0.2,
+   "constraint": 0.2,
+   "completeness": 0.2,
+   "consistency": 0.2
+  }
+ },
+ "cells": {
+  "E0-BC5CDR": {
+   "opus": {
+    "f1": {
+     "f1": 0.8539616778871051,
+     "precision": 0.8692672641012125,
+     "recall": 0.8391857506361323,
+     "ci": [
+      0.8393065776314973,
+      0.8680577316626574
+     ],
+     "sentences": 1000,
+     "pred": 1897,
+     "gold": 1965
+    },
+    "reviewer": {
+     "n_spans": 1897,
+     "share_correct": 0.8692672641012125,
+     "W_cal": {
+      "auroc": {
+       "n": 1897,
+       "n_correct": 1649,
+       "auroc": 0.827440628729044,
+       "pr_auc": 0.9603407889762927,
+       "base_rate": 0.8692672641012125,
+       "auroc_ci": {
+        "ci_low": 0.7966459958697971,
+        "ci_high": 0.8589762744759135,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 1897,
+       "share_passed": 0.948339483394834,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.8988326848249028,
+       "p_correct_given_not_passed": 0.32653061224489793,
+       "false_acceptance": 0.7338709677419355,
+       "false_rejection": 0.019405700424499697,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.8692672641012125,
+        "recall": 0.8391857506361323,
+        "f1": 0.8539616778871052,
+        "kept": 1897
+       },
+       "filtered": {
+        "precision": 0.8988326848249028,
+        "recall": 0.8229007633587786,
+        "f1": 0.8591923485653561,
+        "kept": 1799
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 1897,
+       "n_correct": 1649,
+       "auroc": 0.8177157710440345,
+       "pr_auc": 0.9585929230604027,
+       "base_rate": 0.8692672641012125,
+       "auroc_ci": {
+        "ci_low": 0.7874931693748461,
+        "ci_high": 0.8494957682286863,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 1897,
+       "share_passed": 0.8929889298892989,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.9132231404958677,
+       "p_correct_given_not_passed": 0.5024630541871922,
+       "false_acceptance": 0.592741935483871,
+       "false_rejection": 0.061855670103092786,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.8692672641012125,
+        "recall": 0.8391857506361323,
+        "f1": 0.8539616778871052,
+        "kept": 1897
+       },
+       "filtered": {
+        "precision": 0.9132231404958677,
+        "recall": 0.7872773536895674,
+        "f1": 0.845586225744739,
+        "kept": 1694
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 1897,
+      "n_correct": 1649,
+      "auroc": 0.8473573915765176,
+      "pr_auc": 0.9676293727437693,
+      "base_rate": 0.8692672641012125,
+      "auroc_ci": {
+       "ci_low": 0.8177666759766977,
+       "ci_high": 0.8738190436629659,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 1897,
+      "n_correct": 1649,
+      "auroc": 0.7558588783035662,
+      "pr_auc": 0.9343950620209832,
+      "base_rate": 0.8692672641012125,
+      "auroc_ci": {
+       "ci_low": 0.7286006843522788,
+       "ci_high": 0.781228368012223,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "small": {
+    "f1": {
+     "f1": 0.6606010476978219,
+     "precision": 0.7208182912154031,
+     "recall": 0.6096692111959288,
+     "ci": [
+      0.6376299322143131,
+      0.6836704819296204
+     ],
+     "sentences": 1000,
+     "pred": 1662,
+     "gold": 1965
+    },
+    "reviewer": {
+     "n_spans": 1662,
+     "share_correct": 0.7208182912154031,
+     "W_cal": {
+      "auroc": {
+       "n": 1662,
+       "n_correct": 1198,
+       "auroc": 0.88566522508779,
+       "pr_auc": 0.9398005940224143,
+       "base_rate": 0.7208182912154031,
+       "auroc_ci": {
+        "ci_low": 0.8662540801583529,
+        "ci_high": 0.9046157279587392,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 1662,
+       "share_passed": 0.9452466907340553,
+       "share_failed": 0.006618531889290012,
+       "p_correct_given_passed": 0.7600254614894971,
+       "p_correct_given_not_passed": 0.04395604395604396,
+       "false_acceptance": 0.8125,
+       "false_rejection": 0.00333889816360601,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.7208182912154031,
+        "recall": 0.6096692111959288,
+        "f1": 0.6606010476978219,
+        "kept": 1662
+       },
+       "filtered": {
+        "precision": 0.7600254614894971,
+        "recall": 0.6076335877862595,
+        "f1": 0.6753393665158371,
+        "kept": 1571
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 1662,
+       "n_correct": 1198,
+       "auroc": 0.8413087905129238,
+       "pr_auc": 0.9232881531023872,
+       "base_rate": 0.7208182912154031,
+       "auroc_ci": {
+        "ci_low": 0.8183122992185415,
+        "ci_high": 0.8635691107517052,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 1662,
+       "share_passed": 0.8592057761732852,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.8032212885154062,
+       "p_correct_given_not_passed": 0.21794871794871795,
+       "false_acceptance": 0.6056034482758621,
+       "false_rejection": 0.04257095158597663,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.7208182912154031,
+        "recall": 0.6096692111959288,
+        "f1": 0.6606010476978219,
+        "kept": 1662
+       },
+       "filtered": {
+        "precision": 0.8032212885154062,
+        "recall": 0.5837150127226464,
+        "f1": 0.6760978485116417,
+        "kept": 1428
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 1662,
+      "n_correct": 1198,
+      "auroc": 0.7653317670255023,
+      "pr_auc": 0.8517090067829768,
+      "base_rate": 0.7208182912154031,
+      "auroc_ci": {
+       "ci_low": 0.7394445151187967,
+       "ci_high": 0.7902395126311577,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 1662,
+      "n_correct": 1198,
+      "auroc": 0.7846176817684647,
+      "pr_auc": 0.8757124168037784,
+      "base_rate": 0.7208182912154031,
+      "auroc_ci": {
+       "ci_low": 0.7651636801299102,
+       "ci_high": 0.8034357695754876,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "medium": {
+    "f1": {
+     "f1": 0.6861137897782064,
+     "precision": 0.651855245075584,
+     "recall": 0.7241730279898219,
+     "ci": [
+      0.664149532965408,
+      0.7071779471180201
+     ],
+     "sentences": 1000,
+     "pred": 2183,
+     "gold": 1965
+    },
+    "reviewer": {
+     "n_spans": 2183,
+     "share_correct": 0.651855245075584,
+     "W_cal": {
+      "auroc": {
+       "n": 2183,
+       "n_correct": 1423,
+       "auroc": 0.8934913267004475,
+       "pr_auc": 0.929793668824745,
+       "base_rate": 0.651855245075584,
+       "auroc_ci": {
+        "ci_low": 0.8777903398540586,
+        "ci_high": 0.9086121096126091,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 2183,
+       "share_passed": 0.9683921209344938,
+       "share_failed": 0.00320659642693541,
+       "p_correct_given_passed": 0.6726584673604541,
+       "p_correct_given_not_passed": 0.014492753623188406,
+       "false_acceptance": 0.9105263157894737,
+       "false_rejection": 0.0007027406886858749,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.651855245075584,
+        "recall": 0.7241730279898219,
+        "f1": 0.6861137897782064,
+        "kept": 2183
+       },
+       "filtered": {
+        "precision": 0.6726584673604541,
+        "recall": 0.7236641221374046,
+        "f1": 0.6972297131649915,
+        "kept": 2114
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 2183,
+       "n_correct": 1423,
+       "auroc": 0.8424617191256426,
+       "pr_auc": 0.9074158445132897,
+       "base_rate": 0.651855245075584,
+       "auroc_ci": {
+        "ci_low": 0.8233776386824285,
+        "ci_high": 0.8607928855272395,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 2183,
+       "share_passed": 0.8277599633531837,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.7448810182623132,
+       "p_correct_given_not_passed": 0.2047872340425532,
+       "false_acceptance": 0.6065789473684211,
+       "false_rejection": 0.054111033028812365,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.651855245075584,
+        "recall": 0.7241730279898219,
+        "f1": 0.6861137897782064,
+        "kept": 2183
+       },
+       "filtered": {
+        "precision": 0.7448810182623132,
+        "recall": 0.6849872773536896,
+        "f1": 0.7136797454931072,
+        "kept": 1807
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 2183,
+      "n_correct": 1423,
+      "auroc": 0.796159891999852,
+      "pr_auc": 0.8367374444485403,
+      "base_rate": 0.651855245075584,
+      "auroc_ci": {
+       "ci_low": 0.7729530116304208,
+       "ci_high": 0.8185753424603034,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 2183,
+      "n_correct": 1423,
+      "auroc": 0.7814698376299145,
+      "pr_auc": 0.8424332715208216,
+      "base_rate": 0.651855245075584,
+      "auroc_ci": {
+       "ci_low": 0.7632301218377731,
+       "ci_high": 0.7977820711311971,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "large": {
+    "f1": {
+     "f1": 0.7366787377133989,
+     "precision": 0.749079431877959,
+     "recall": 0.7246819338422392,
+     "ci": [
+      0.7159633364196071,
+      0.755917748422093
+     ],
+     "sentences": 1000,
+     "pred": 1901,
+     "gold": 1965
+    },
+    "reviewer": {
+     "n_spans": 1901,
+     "share_correct": 0.749079431877959,
+     "W_cal": {
+      "auroc": {
+       "n": 1901,
+       "n_correct": 1424,
+       "auroc": 0.8694836053989118,
+       "pr_auc": 0.9417639244119979,
+       "base_rate": 0.749079431877959,
+       "auroc_ci": {
+        "ci_low": 0.8476599895486927,
+        "ci_high": 0.8900187917497163,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 1901,
+       "share_passed": 0.97317201472909,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.7681081081081081,
+       "p_correct_given_not_passed": 0.058823529411764705,
+       "false_acceptance": 0.89937106918239,
+       "false_rejection": 0.002106741573033708,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.749079431877959,
+        "recall": 0.7246819338422392,
+        "f1": 0.736678737713399,
+        "kept": 1901
+       },
+       "filtered": {
+        "precision": 0.7681081081081081,
+        "recall": 0.7231552162849872,
+        "f1": 0.7449541284403669,
+        "kept": 1850
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 1901,
+       "n_correct": 1424,
+       "auroc": 0.8386634925682519,
+       "pr_auc": 0.9332965313895463,
+       "base_rate": 0.749079431877959,
+       "auroc_ci": {
+        "ci_low": 0.8148466972386031,
+        "ci_high": 0.8603067002954834,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 1901,
+       "share_passed": 0.8748027354024198,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.814792543595911,
+       "p_correct_given_not_passed": 0.28991596638655465,
+       "false_acceptance": 0.6457023060796646,
+       "false_rejection": 0.04845505617977528,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.749079431877959,
+        "recall": 0.7246819338422392,
+        "f1": 0.736678737713399,
+        "kept": 1901
+       },
+       "filtered": {
+        "precision": 0.814792543595911,
+        "recall": 0.6895674300254453,
+        "f1": 0.7469680264608599,
+        "kept": 1663
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 1901,
+      "n_correct": 1424,
+      "auroc": 0.7944719748898782,
+      "pr_auc": 0.8906686718611747,
+      "base_rate": 0.749079431877959,
+      "auroc_ci": {
+       "ci_low": 0.7687684084618676,
+       "ci_high": 0.8172990300374785,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 1901,
+      "n_correct": 1424,
+      "auroc": 0.7852051091795633,
+      "pr_auc": 0.8892927238939643,
+      "base_rate": 0.749079431877959,
+      "auroc_ci": {
+       "ci_low": 0.7654104046883186,
+       "ci_high": 0.8032454078730386,
+       "n_resamples": 2000
+      }
+     }
+    }
+   }
+  },
+  "E0-BioRED": {
+   "opus": {
+    "f1": {
+     "f1": 0.889895786135025,
+     "precision": 0.9232215606392981,
+     "recall": 0.8588921282798834,
+     "ci": [
+      0.880486348111339,
+      0.8994920962167449
+     ],
+     "sentences": 1096,
+     "pred": 3191,
+     "gold": 3430
+    },
+    "reviewer": {
+     "n_spans": 3191,
+     "share_correct": 0.9232215606392981,
+     "W_cal": {
+      "auroc": {
+       "n": 3191,
+       "n_correct": 2946,
+       "auroc": 0.7585581279354919,
+       "pr_auc": 0.9668689375266563,
+       "base_rate": 0.9232215606392981,
+       "auroc_ci": {
+        "ci_low": 0.7206413225516319,
+        "ci_high": 0.7958786663830774,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3191,
+       "share_passed": 0.9360701974302726,
+       "share_failed": 0.00031338138514572234,
+       "p_correct_given_passed": 0.9434214931369267,
+       "p_correct_given_not_passed": 0.6274509803921569,
+       "false_acceptance": 0.689795918367347,
+       "false_rejection": 0.04344874405974202,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.9232215606392981,
+        "recall": 0.8588921282798834,
+        "f1": 0.8898957861350248,
+        "kept": 3191
+       },
+       "filtered": {
+        "precision": 0.9434214931369267,
+        "recall": 0.8215743440233236,
+        "f1": 0.8782920367773103,
+        "kept": 2987
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 3191,
+       "n_correct": 2946,
+       "auroc": 0.7221892015461989,
+       "pr_auc": 0.96025719808363,
+       "base_rate": 0.9232215606392981,
+       "auroc_ci": {
+        "ci_low": 0.6823483393797957,
+        "ci_high": 0.7621872470921941,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3191,
+       "share_passed": 0.8740206831714196,
+       "share_failed": 0.00031338138514572234,
+       "p_correct_given_passed": 0.9483685908927931,
+       "p_correct_given_not_passed": 0.7487562189054726,
+       "false_acceptance": 0.5877551020408164,
+       "false_rejection": 0.1021724372029871,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.9232215606392981,
+        "recall": 0.8588921282798834,
+        "f1": 0.8898957861350248,
+        "kept": 3191
+       },
+       "filtered": {
+        "precision": 0.9483685908927931,
+        "recall": 0.7711370262390671,
+        "f1": 0.8506190705901271,
+        "kept": 2789
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 3191,
+      "n_correct": 2946,
+      "auroc": 0.8319672471840059,
+      "pr_auc": 0.9792151543503655,
+      "base_rate": 0.9232215606392981,
+      "auroc_ci": {
+       "ci_low": 0.8056101923699417,
+       "ci_high": 0.8575562984778053,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 3191,
+      "n_correct": 2946,
+      "auroc": 0.6063981600786954,
+      "pr_auc": 0.9389536148985177,
+      "base_rate": 0.9232215606392981,
+      "auroc_ci": {
+       "ci_low": 0.5759581335198793,
+       "ci_high": 0.6351597801871587,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "small": {
+    "f1": {
+     "f1": 0.6261756735214411,
+     "precision": 0.6908195568061907,
+     "recall": 0.572594752186589,
+     "ci": [
+      0.6022468528455172,
+      0.6489348723144577
+     ],
+     "sentences": 1096,
+     "pred": 2843,
+     "gold": 3430
+    },
+    "reviewer": {
+     "n_spans": 2843,
+     "share_correct": 0.6908195568061907,
+     "W_cal": {
+      "auroc": {
+       "n": 2843,
+       "n_correct": 1964,
+       "auroc": 0.8572064510448598,
+       "pr_auc": 0.9144167110919563,
+       "base_rate": 0.6908195568061907,
+       "auroc_ci": {
+        "ci_low": 0.8387259411683828,
+        "ci_high": 0.8750153095755666,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 2843,
+       "share_passed": 0.8916637354906789,
+       "share_failed": 0.0045726345409778405,
+       "p_correct_given_passed": 0.7479289940828402,
+       "p_correct_given_not_passed": 0.22077922077922077,
+       "false_acceptance": 0.726962457337884,
+       "false_rejection": 0.034623217922606926,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.6908195568061907,
+        "recall": 0.572594752186589,
+        "f1": 0.6261756735214411,
+        "kept": 2843
+       },
+       "filtered": {
+        "precision": 0.7479289940828402,
+        "recall": 0.5527696793002915,
+        "f1": 0.6357082984073764,
+        "kept": 2535
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 2843,
+       "n_correct": 1964,
+       "auroc": 0.7340313932931563,
+       "pr_auc": 0.8566610005939413,
+       "base_rate": 0.6908195568061907,
+       "auroc_ci": {
+        "ci_low": 0.7108141438176132,
+        "ci_high": 0.7559982281718213,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 2843,
+       "share_passed": 0.8079493492789307,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.7692642577274706,
+       "p_correct_given_not_passed": 0.3608058608058608,
+       "false_acceptance": 0.602957906712173,
+       "false_rejection": 0.10030549898167006,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.6908195568061907,
+        "recall": 0.572594752186589,
+        "f1": 0.6261756735214411,
+        "kept": 2843
+       },
+       "filtered": {
+        "precision": 0.7692642577274706,
+        "recall": 0.5151603498542274,
+        "f1": 0.6170770036668414,
+        "kept": 2297
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 2843,
+      "n_correct": 1964,
+      "auroc": 0.7804575070263607,
+      "pr_auc": 0.846858764365068,
+      "base_rate": 0.6908195568061907,
+      "auroc_ci": {
+       "ci_low": 0.7562147262025483,
+       "ci_high": 0.8049786394362644,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 2843,
+      "n_correct": 1964,
+      "auroc": 0.6357761666770932,
+      "pr_auc": 0.770020998151496,
+      "base_rate": 0.6908195568061907,
+      "auroc_ci": {
+       "ci_low": 0.6213268886882007,
+       "ci_high": 0.6506056479263554,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "medium": {
+    "f1": {
+     "f1": 0.6725844004656577,
+     "precision": 0.6714119697850087,
+     "recall": 0.6737609329446064,
+     "ci": [
+      0.6514882872217244,
+      0.6931338775649563
+     ],
+     "sentences": 1096,
+     "pred": 3442,
+     "gold": 3430
+    },
+    "reviewer": {
+     "n_spans": 3442,
+     "share_correct": 0.6714119697850087,
+     "W_cal": {
+      "auroc": {
+       "n": 3442,
+       "n_correct": 2311,
+       "auroc": 0.8490326700311929,
+       "pr_auc": 0.9038403973584703,
+       "base_rate": 0.6714119697850087,
+       "auroc_ci": {
+        "ci_low": 0.8325042932141995,
+        "ci_high": 0.8649246825239568,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3442,
+       "share_passed": 0.9142940151074956,
+       "share_failed": 0.0031958163858221964,
+       "p_correct_given_passed": 0.7111534795042898,
+       "p_correct_given_not_passed": 0.24745762711864408,
+       "false_acceptance": 0.8037135278514589,
+       "false_rejection": 0.03158805711813068,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.6714119697850087,
+        "recall": 0.6737609329446064,
+        "f1": 0.6725844004656577,
+        "kept": 3442
+       },
+       "filtered": {
+        "precision": 0.7111534795042898,
+        "recall": 0.6524781341107871,
+        "f1": 0.6805534438193706,
+        "kept": 3147
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 3442,
+       "n_correct": 2311,
+       "auroc": 0.7175714808774091,
+       "pr_auc": 0.8374631587997542,
+       "base_rate": 0.6714119697850087,
+       "auroc_ci": {
+        "ci_low": 0.6964148168456837,
+        "ci_high": 0.7370331418165804,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3442,
+       "share_passed": 0.810575246949448,
+       "share_failed": 0.0005810575246949448,
+       "p_correct_given_passed": 0.7440860215053764,
+       "p_correct_given_not_passed": 0.3604294478527607,
+       "false_acceptance": 0.6312997347480106,
+       "false_rejection": 0.10168758113370835,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.6714119697850087,
+        "recall": 0.6737609329446064,
+        "f1": 0.6725844004656577,
+        "kept": 3442
+       },
+       "filtered": {
+        "precision": 0.7440860215053764,
+        "recall": 0.6052478134110787,
+        "f1": 0.667524115755627,
+        "kept": 2790
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 3442,
+      "n_correct": 2311,
+      "auroc": 0.8338989976436074,
+      "pr_auc": 0.873562962960497,
+      "base_rate": 0.6714119697850087,
+      "auroc_ci": {
+       "ci_low": 0.8181674426225682,
+       "ci_high": 0.8493240984494865,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 3442,
+      "n_correct": 2311,
+      "auroc": 0.6460984466326235,
+      "pr_auc": 0.7626056812101988,
+      "base_rate": 0.6714119697850087,
+      "auroc_ci": {
+       "ci_low": 0.6333351042924983,
+       "ci_high": 0.6597860836882735,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "large": {
+    "f1": {
+     "f1": 0.7142010080047435,
+     "precision": 0.7264776839565742,
+     "recall": 0.702332361516035,
+     "ci": [
+      0.6948825495801386,
+      0.7328690849380505
+     ],
+     "sentences": 1096,
+     "pred": 3316,
+     "gold": 3430
+    },
+    "reviewer": {
+     "n_spans": 3316,
+     "share_correct": 0.7264776839565742,
+     "W_cal": {
+      "auroc": {
+       "n": 3316,
+       "n_correct": 2409,
+       "auroc": 0.8400904271605515,
+       "pr_auc": 0.9164500140706343,
+       "base_rate": 0.7264776839565742,
+       "auroc_ci": {
+        "ci_low": 0.8221224182704202,
+        "ci_high": 0.8574098072909541,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3316,
+       "share_passed": 0.9285283474065139,
+       "share_failed": 0.00030156815440289503,
+       "p_correct_given_passed": 0.7619356934069503,
+       "p_correct_given_not_passed": 0.26582278481012656,
+       "false_acceptance": 0.8081587651598677,
+       "false_rejection": 0.026151930261519303,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.7264776839565742,
+        "recall": 0.702332361516035,
+        "f1": 0.7142010080047435,
+        "kept": 3316
+       },
+       "filtered": {
+        "precision": 0.7619356934069503,
+        "recall": 0.6839650145772594,
+        "f1": 0.7208480565371024,
+        "kept": 3079
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 3316,
+       "n_correct": 2409,
+       "auroc": 0.7383843570806462,
+       "pr_auc": 0.8695751157597195,
+       "base_rate": 0.7264776839565742,
+       "auroc_ci": {
+        "ci_low": 0.7172547129132594,
+        "ci_high": 0.7584062980079627,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3316,
+       "share_passed": 0.8259951749095296,
+       "share_failed": 0.00030156815440289503,
+       "p_correct_given_passed": 0.7948156261409274,
+       "p_correct_given_not_passed": 0.4020797227036395,
+       "false_acceptance": 0.619625137816979,
+       "false_rejection": 0.09630552096305521,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.7264776839565742,
+        "recall": 0.702332361516035,
+        "f1": 0.7142010080047435,
+        "kept": 3316
+       },
+       "filtered": {
+        "precision": 0.7948156261409274,
+        "recall": 0.6346938775510204,
+        "f1": 0.7057869995136975,
+        "kept": 2739
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 3316,
+      "n_correct": 2409,
+      "auroc": 0.8143552087609721,
+      "pr_auc": 0.8924972528118968,
+      "base_rate": 0.7264776839565742,
+      "auroc_ci": {
+       "ci_low": 0.7892553060919716,
+       "ci_high": 0.8382867986157909,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 3316,
+      "n_correct": 2409,
+      "auroc": 0.6489746050619621,
+      "pr_auc": 0.8042004902129606,
+      "base_rate": 0.7264776839565742,
+      "auroc_ci": {
+       "ci_low": 0.63502586748694,
+       "ci_high": 0.6618641516667786,
+       "n_resamples": 2000
+      }
+     }
+    }
+   }
+  },
+  "E0-MedMentions": {
+   "opus": {
+    "f1": {
+     "f1": 0.47783305693753453,
+     "precision": 0.4419222903885481,
+     "recall": 0.5200962695547533,
+     "ci": [
+      0.4585558599542905,
+      0.4958585496477772
+     ],
+     "sentences": 1000,
+     "pred": 4890,
+     "gold": 4155
+    },
+    "reviewer": {
+     "n_spans": 4890,
+     "share_correct": 0.4419222903885481,
+     "W_cal": {
+      "auroc": {
+       "n": 4890,
+       "n_correct": 2161,
+       "auroc": 0.8530232719031148,
+       "pr_auc": 0.7962815015295245,
+       "base_rate": 0.4419222903885481,
+       "auroc_ci": {
+        "ci_low": 0.8407822632637395,
+        "ci_high": 0.8650954164735171,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 4890,
+       "share_passed": 0.5940695296523517,
+       "share_failed": 0.005930470347648262,
+       "p_correct_given_passed": 0.657487091222031,
+       "p_correct_given_not_passed": 0.12644836272040302,
+       "false_acceptance": 0.36460241846830344,
+       "false_rejection": 0.11614993058769088,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.4419222903885481,
+        "recall": 0.5200962695547533,
+        "f1": 0.4778330569375346,
+        "kept": 4890
+       },
+       "filtered": {
+        "precision": 0.657487091222031,
+        "recall": 0.45968712394705175,
+        "f1": 0.5410764872521246,
+        "kept": 2905
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 4890,
+       "n_correct": 2161,
+       "auroc": 0.8582433963348741,
+       "pr_auc": 0.8005602778382797,
+       "base_rate": 0.4419222903885481,
+       "auroc_ci": {
+        "ci_low": 0.8462627190009216,
+        "ci_high": 0.8704001579675475,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 4890,
+       "share_passed": 0.5513292433537832,
+       "share_failed": 0.0006134969325153375,
+       "p_correct_given_passed": 0.6899109792284867,
+       "p_correct_given_not_passed": 0.13719234275296263,
+       "false_acceptance": 0.30633931843165996,
+       "false_rejection": 0.13928736695974087,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.4419222903885481,
+        "recall": 0.5200962695547533,
+        "f1": 0.4778330569375346,
+        "kept": 4890
+       },
+       "filtered": {
+        "precision": 0.6899109792284867,
+        "recall": 0.44765342960288806,
+        "f1": 0.5429864253393665,
+        "kept": 2696
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 4890,
+      "n_correct": 2161,
+      "auroc": 0.7638747889101055,
+      "pr_auc": 0.7027164696110986,
+      "base_rate": 0.4419222903885481,
+      "auroc_ci": {
+       "ci_low": 0.7478849569404182,
+       "ci_high": 0.779718679502556,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 4890,
+      "n_correct": 2161,
+      "auroc": 0.7721722178144186,
+      "pr_auc": 0.6610363799668197,
+      "base_rate": 0.4419222903885481,
+      "auroc_ci": {
+       "ci_low": 0.758019843304158,
+       "ci_high": 0.7854111448150949,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "small": {
+    "f1": {
+     "f1": 0.2079585302637597,
+     "precision": 0.28240165631469977,
+     "recall": 0.16457528957528958,
+     "ci": [
+      0.18723878852869202,
+      0.2293183008263593
+     ],
+     "sentences": 999,
+     "pred": 2415,
+     "gold": 4144
+    },
+    "reviewer": {
+     "n_spans": 2415,
+     "share_correct": 0.28240165631469977,
+     "W_cal": {
+      "auroc": {
+       "n": 2415,
+       "n_correct": 682,
+       "auroc": 0.9184313304103711,
+       "pr_auc": 0.7639289563464807,
+       "base_rate": 0.28240165631469977,
+       "auroc_ci": {
+        "ci_low": 0.9046821897755086,
+        "ci_high": 0.931455024069755,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 2415,
+       "share_passed": 0.663768115942029,
+       "share_failed": 0.01780538302277433,
+       "p_correct_given_passed": 0.42108546475358705,
+       "p_correct_given_not_passed": 0.008620689655172414,
+       "false_acceptance": 0.5354875937680323,
+       "false_rejection": 0.010263929618768328,
+       "p_incorrect_given_failed": 0.9767441860465116
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.28240165631469977,
+        "recall": 0.16457528957528958,
+        "f1": 0.2079585302637597,
+        "kept": 2415
+       },
+       "filtered": {
+        "precision": 0.42108546475358705,
+        "recall": 0.16288610038610038,
+        "f1": 0.23490516791369412,
+        "kept": 1603
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 2415,
+       "n_correct": 682,
+       "auroc": 0.8962451328616658,
+       "pr_auc": 0.7408747277983381,
+       "base_rate": 0.28240165631469977,
+       "auroc_ci": {
+        "ci_low": 0.8797940591549607,
+        "ci_high": 0.9119327087162444,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 2415,
+       "share_passed": 0.6289855072463768,
+       "share_failed": 0.002070393374741201,
+       "p_correct_given_passed": 0.4358130348913759,
+       "p_correct_given_not_passed": 0.022321428571428572,
+       "false_acceptance": 0.49451817657241776,
+       "false_rejection": 0.02932551319648094,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.28240165631469977,
+        "recall": 0.16457528957528958,
+        "f1": 0.2079585302637597,
+        "kept": 2415
+       },
+       "filtered": {
+        "precision": 0.4358130348913759,
+        "recall": 0.15974903474903476,
+        "f1": 0.23379834010241923,
+        "kept": 1519
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 2415,
+      "n_correct": 682,
+      "auroc": 0.6785103891510831,
+      "pr_auc": 0.4017446657355079,
+      "base_rate": 0.28240165631469977,
+      "auroc_ci": {
+       "ci_low": 0.6522381619806099,
+       "ci_high": 0.7052844279250777,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 2415,
+      "n_correct": 682,
+      "auroc": 0.8273026788932453,
+      "pr_auc": 0.6258277376996954,
+      "base_rate": 0.28240165631469977,
+      "auroc_ci": {
+       "ci_low": 0.807532495891029,
+       "ci_high": 0.8481332928907349,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "medium": {
+    "f1": {
+     "f1": 0.2753785754346607,
+     "precision": 0.32986227746053076,
+     "recall": 0.23634175691937426,
+     "ci": [
+      0.2536909567723009,
+      0.297542141374323
+     ],
+     "sentences": 1000,
+     "pred": 2977,
+     "gold": 4155
+    },
+    "reviewer": {
+     "n_spans": 2977,
+     "share_correct": 0.32986227746053076,
+     "W_cal": {
+      "auroc": {
+       "n": 2977,
+       "n_correct": 982,
+       "auroc": 0.9033181221893839,
+       "pr_auc": 0.7665726184990103,
+       "base_rate": 0.32986227746053076,
+       "auroc_ci": {
+        "ci_low": 0.8894315403493219,
+        "ci_high": 0.9168983202529276,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 2977,
+       "share_passed": 0.7497480685253611,
+       "share_failed": 0.0030231776956667787,
+       "p_correct_given_passed": 0.4359318996415771,
+       "p_correct_given_not_passed": 0.012080536912751677,
+       "false_acceptance": 0.631077694235589,
+       "false_rejection": 0.009164969450101833,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.32986227746053076,
+        "recall": 0.23634175691937426,
+        "f1": 0.27537857543466066,
+        "kept": 2977
+       },
+       "filtered": {
+        "precision": 0.4359318996415771,
+        "recall": 0.2341756919374248,
+        "f1": 0.3046813840613747,
+        "kept": 2232
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 2977,
+       "n_correct": 982,
+       "auroc": 0.8840117095181946,
+       "pr_auc": 0.7484000616839983,
+       "base_rate": 0.32986227746053076,
+       "auroc_ci": {
+        "ci_low": 0.8683120862395831,
+        "ci_high": 0.8991285734077308,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 2977,
+       "share_passed": 0.6842458851192476,
+       "share_failed": 0.0013436345314074571,
+       "p_correct_given_passed": 0.47079037800687284,
+       "p_correct_given_not_passed": 0.02446808510638298,
+       "false_acceptance": 0.5403508771929825,
+       "false_rejection": 0.023421588594704685,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.32986227746053076,
+        "recall": 0.23634175691937426,
+        "f1": 0.27537857543466066,
+        "kept": 2977
+       },
+       "filtered": {
+        "precision": 0.47079037800687284,
+        "recall": 0.23080625752105896,
+        "f1": 0.30975452196382425,
+        "kept": 2037
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 2977,
+      "n_correct": 982,
+      "auroc": 0.6765659055990281,
+      "pr_auc": 0.48162580637501196,
+      "base_rate": 0.32986227746053076,
+      "auroc_ci": {
+       "ci_low": 0.6518234740279772,
+       "ci_high": 0.7015582682159274,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 2977,
+      "n_correct": 982,
+      "auroc": 0.8202116799126125,
+      "pr_auc": 0.6535780045591704,
+      "base_rate": 0.32986227746053076,
+      "auroc_ci": {
+       "ci_low": 0.8018773773783024,
+       "ci_high": 0.8377957013688858,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "large": {
+    "f1": {
+     "f1": 0.33002886183962854,
+     "precision": 0.34478238070267436,
+     "recall": 0.3164861612515042,
+     "ci": [
+      0.3097880181995016,
+      0.34948579673674746
+     ],
+     "sentences": 1000,
+     "pred": 3814,
+     "gold": 4155
+    },
+    "reviewer": {
+     "n_spans": 3814,
+     "share_correct": 0.34478238070267436,
+     "W_cal": {
+      "auroc": {
+       "n": 3814,
+       "n_correct": 1315,
+       "auroc": 0.8879323592554893,
+       "pr_auc": 0.7573521839601774,
+       "base_rate": 0.34478238070267436,
+       "auroc_ci": {
+        "ci_low": 0.8749078309328935,
+        "ci_high": 0.9009614086799766,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3814,
+       "share_passed": 0.8361300471945464,
+       "share_failed": 0.0005243838489774515,
+       "p_correct_given_passed": 0.40984634681718407,
+       "p_correct_given_not_passed": 0.0128,
+       "false_acceptance": 0.7531012404961985,
+       "false_rejection": 0.006083650190114068,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.34478238070267436,
+        "recall": 0.3164861612515042,
+        "f1": 0.33002886183962854,
+        "kept": 3814
+       },
+       "filtered": {
+        "precision": 0.40984634681718407,
+        "recall": 0.314560770156438,
+        "f1": 0.3559368191721133,
+        "kept": 3189
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 3814,
+       "n_correct": 1315,
+       "auroc": 0.8739217359947782,
+       "pr_auc": 0.7439123479706122,
+       "base_rate": 0.34478238070267436,
+       "auroc_ci": {
+        "ci_low": 0.8593850066100694,
+        "ci_high": 0.8881066222107611,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3814,
+       "share_passed": 0.7456738332459361,
+       "share_failed": 0.0005243838489774515,
+       "p_correct_given_passed": 0.4518284106891702,
+       "p_correct_given_not_passed": 0.030927835051546393,
+       "false_acceptance": 0.6238495398159264,
+       "false_rejection": 0.022813688212927757,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.34478238070267436,
+        "recall": 0.3164861612515042,
+        "f1": 0.33002886183962854,
+        "kept": 3814
+       },
+       "filtered": {
+        "precision": 0.4518284106891702,
+        "recall": 0.309265944645006,
+        "f1": 0.36719531361623087,
+        "kept": 2844
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 3814,
+      "n_correct": 1315,
+      "auroc": 0.6218208956586437,
+      "pr_auc": 0.4491975533965927,
+      "base_rate": 0.34478238070267436,
+      "auroc_ci": {
+       "ci_low": 0.5989573418313505,
+       "ci_high": 0.6439658110521174,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 3814,
+      "n_correct": 1315,
+      "auroc": 0.8088409508290008,
+      "pr_auc": 0.6371890196373612,
+      "base_rate": 0.34478238070267436,
+      "auroc_ci": {
+       "ci_low": 0.79296407700246,
+       "ci_high": 0.8253532534645757,
+       "n_resamples": 2000
+      }
+     }
+    }
+   }
+  },
+  "E1-BC5CDR": {
+   "opus": {
+    "f1": {
+     "f1": 0.8973852984706463,
+     "precision": 0.8707515557683102,
+     "recall": 0.9256997455470738,
+     "ci": [
+      0.8846949063710337,
+      0.9093973959885208
+     ],
+     "sentences": 1000,
+     "pred": 2089,
+     "gold": 1965
+    },
+    "reviewer": {
+     "n_spans": 2089,
+     "share_correct": 0.8707515557683102,
+     "W_cal": {
+      "auroc": {
+       "n": 2089,
+       "n_correct": 1819,
+       "auroc": 0.8437806690692892,
+       "pr_auc": 0.9645356235357174,
+       "base_rate": 0.8707515557683102,
+       "auroc_ci": {
+        "ci_low": 0.8163287205046487,
+        "ci_high": 0.8715747116669256,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 2089,
+       "share_passed": 0.9473432264241264,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.9009600808489135,
+       "p_correct_given_not_passed": 0.32727272727272727,
+       "false_acceptance": 0.725925925925926,
+       "false_rejection": 0.019791094007696537,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.8707515557683102,
+        "recall": 0.9256997455470738,
+        "f1": 0.8973852984706463,
+        "kept": 2089
+       },
+       "filtered": {
+        "precision": 0.9009600808489135,
+        "recall": 0.9073791348600508,
+        "f1": 0.9041582150101419,
+        "kept": 1979
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 2089,
+       "n_correct": 1819,
+       "auroc": 0.8288732107588622,
+       "pr_auc": 0.9623132961308143,
+       "base_rate": 0.8707515557683102,
+       "auroc_ci": {
+        "ci_low": 0.800116729542143,
+        "ci_high": 0.8571254026667328,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 2089,
+       "share_passed": 0.8985160363810436,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.9136920618007459,
+       "p_correct_given_not_passed": 0.49056603773584906,
+       "false_acceptance": 0.6,
+       "false_rejection": 0.057174271577789995,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.8707515557683102,
+        "recall": 0.9256997455470738,
+        "f1": 0.8973852984706463,
+        "kept": 2089
+       },
+       "filtered": {
+        "precision": 0.9136920618007459,
+        "recall": 0.8727735368956743,
+        "f1": 0.8927641853201458,
+        "kept": 1877
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 2089,
+      "n_correct": 1819,
+      "auroc": 0.8754301305153421,
+      "pr_auc": 0.974017888559848,
+      "base_rate": 0.8707515557683102,
+      "auroc_ci": {
+       "ci_low": 0.8480111466843262,
+       "ci_high": 0.9003950172465518,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 2089,
+      "n_correct": 1819,
+      "auroc": 0.7476472624356076,
+      "pr_auc": 0.9328977180165652,
+      "base_rate": 0.8707515557683102,
+      "auroc_ci": {
+       "ci_low": 0.7221576575737428,
+       "ci_high": 0.771730681797367,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "small": {
+    "f1": {
+     "f1": 0.7435377597567157,
+     "precision": 0.740535083291267,
+     "recall": 0.7465648854961832,
+     "ci": [
+      0.7227205830605264,
+      0.7634102893474274
+     ],
+     "sentences": 1000,
+     "pred": 1981,
+     "gold": 1965
+    },
+    "reviewer": {
+     "n_spans": 1981,
+     "share_correct": 0.740535083291267,
+     "W_cal": {
+      "auroc": {
+       "n": 1981,
+       "n_correct": 1467,
+       "auroc": 0.8751283091833568,
+       "pr_auc": 0.941153337092348,
+       "base_rate": 0.740535083291267,
+       "auroc_ci": {
+        "ci_low": 0.8558974622897987,
+        "ci_high": 0.894704918365098,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 1981,
+       "share_passed": 0.9712266532054518,
+       "share_failed": 0.0020191822311963654,
+       "p_correct_given_passed": 0.761954261954262,
+       "p_correct_given_not_passed": 0.017543859649122806,
+       "false_acceptance": 0.8910505836575876,
+       "false_rejection": 0.0006816632583503749,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.740535083291267,
+        "recall": 0.7465648854961832,
+        "f1": 0.7435377597567157,
+        "kept": 1981
+       },
+       "filtered": {
+        "precision": 0.761954261954262,
+        "recall": 0.7460559796437659,
+        "f1": 0.7539213165338133,
+        "kept": 1924
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 1981,
+       "n_correct": 1467,
+       "auroc": 0.8391254817396471,
+       "pr_auc": 0.9278253055911694,
+       "base_rate": 0.740535083291267,
+       "auroc_ci": {
+        "ci_low": 0.8166914265819335,
+        "ci_high": 0.8609557852115056,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 1981,
+       "share_passed": 0.8642099949520444,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.8165887850467289,
+       "p_correct_given_not_passed": 0.25650557620817843,
+       "false_acceptance": 0.6108949416342413,
+       "false_rejection": 0.04703476482617587,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.740535083291267,
+        "recall": 0.7465648854961832,
+        "f1": 0.7435377597567157,
+        "kept": 1981
+       },
+       "filtered": {
+        "precision": 0.8165887850467289,
+        "recall": 0.7114503816793893,
+        "f1": 0.7604025020397063,
+        "kept": 1712
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 1981,
+      "n_correct": 1467,
+      "auroc": 0.7618561664001019,
+      "pr_auc": 0.8656840612135859,
+      "base_rate": 0.740535083291267,
+      "auroc_ci": {
+       "ci_low": 0.7347961786243578,
+       "ci_high": 0.7877356879945887,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 1981,
+      "n_correct": 1467,
+      "auroc": 0.7880319029014453,
+      "pr_auc": 0.8856119157542215,
+      "base_rate": 0.740535083291267,
+      "auroc_ci": {
+       "ci_low": 0.7692193550936269,
+       "ci_high": 0.80549476082236,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "medium": {
+    "f1": {
+     "f1": 0.7668834417208604,
+     "precision": 0.7540580423020167,
+     "recall": 0.7801526717557252,
+     "ci": [
+      0.746791381023531,
+      0.7855026318241763
+     ],
+     "sentences": 1000,
+     "pred": 2033,
+     "gold": 1965
+    },
+    "reviewer": {
+     "n_spans": 2033,
+     "share_correct": 0.7540580423020167,
+     "W_cal": {
+      "auroc": {
+       "n": 2033,
+       "n_correct": 1533,
+       "auroc": 0.8676712328767123,
+       "pr_auc": 0.9410888992186455,
+       "base_rate": 0.7540580423020167,
+       "auroc_ci": {
+        "ci_low": 0.8458833720064135,
+        "ci_high": 0.8875522210060108,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 2033,
+       "share_passed": 0.9872110181997049,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.763328350772297,
+       "p_correct_given_not_passed": 0.038461538461538464,
+       "false_acceptance": 0.95,
+       "false_rejection": 0.0006523157208088715,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.7540580423020167,
+        "recall": 0.7801526717557252,
+        "f1": 0.7668834417208604,
+        "kept": 2033
+       },
+       "filtered": {
+        "precision": 0.763328350772297,
+        "recall": 0.7796437659033079,
+        "f1": 0.7713997985901309,
+        "kept": 2007
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 2033,
+       "n_correct": 1533,
+       "auroc": 0.8325238095238096,
+       "pr_auc": 0.9298442976158704,
+       "base_rate": 0.7540580423020167,
+       "auroc_ci": {
+        "ci_low": 0.8088675792242325,
+        "ci_high": 0.8556430137519084,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 2033,
+       "share_passed": 0.8780127889818002,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.8184873949579832,
+       "p_correct_given_not_passed": 0.2903225806451613,
+       "false_acceptance": 0.648,
+       "false_rejection": 0.046966731898238745,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.7540580423020167,
+        "recall": 0.7801526717557252,
+        "f1": 0.7668834417208604,
+        "kept": 2033
+       },
+       "filtered": {
+        "precision": 0.8184873949579832,
+        "recall": 0.7435114503816794,
+        "f1": 0.7792,
+        "kept": 1785
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 2033,
+      "n_correct": 1533,
+      "auroc": 0.736221787345075,
+      "pr_auc": 0.8598030030500297,
+      "base_rate": 0.7540580423020167,
+      "auroc_ci": {
+       "ci_low": 0.7081430854311834,
+       "ci_high": 0.7633935154639733,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 2033,
+      "n_correct": 1533,
+      "auroc": 0.7811545988258317,
+      "pr_auc": 0.888137143274109,
+      "base_rate": 0.7540580423020167,
+      "auroc_ci": {
+       "ci_low": 0.7619473188130963,
+       "ci_high": 0.79934710193297,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "large": {
+    "f1": {
+     "f1": 0.816141235813367,
+     "precision": 0.809,
+     "recall": 0.823409669211196,
+     "ci": [
+      0.7987803711721126,
+      0.8330429951718858
+     ],
+     "sentences": 1000,
+     "pred": 2000,
+     "gold": 1965
+    },
+    "reviewer": {
+     "n_spans": 2000,
+     "share_correct": 0.809,
+     "W_cal": {
+      "auroc": {
+       "n": 2000,
+       "n_correct": 1618,
+       "auroc": 0.8547986008193167,
+       "pr_auc": 0.9541853967182525,
+       "base_rate": 0.809,
+       "auroc_ci": {
+        "ci_low": 0.8318688294263006,
+        "ci_high": 0.8764026865585982,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 2000,
+       "share_passed": 0.994,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.8133802816901409,
+       "p_correct_given_not_passed": 0.08333333333333333,
+       "false_acceptance": 0.9712041884816754,
+       "false_rejection": 0.0006180469715698393,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.809,
+        "recall": 0.823409669211196,
+        "f1": 0.8161412358133671,
+        "kept": 2000
+       },
+       "filtered": {
+        "precision": 0.8133802816901409,
+        "recall": 0.8229007633587786,
+        "f1": 0.8181128257019984,
+        "kept": 1988
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 2000,
+       "n_correct": 1618,
+       "auroc": 0.8239367003410584,
+       "pr_auc": 0.9451101928345366,
+       "base_rate": 0.809,
+       "auroc_ci": {
+        "ci_low": 0.7975921564338637,
+        "ci_high": 0.848413912735411,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 2000,
+       "share_passed": 0.908,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.8513215859030837,
+       "p_correct_given_not_passed": 0.391304347826087,
+       "false_acceptance": 0.7068062827225131,
+       "false_rejection": 0.04449938195302843,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.809,
+        "recall": 0.823409669211196,
+        "f1": 0.8161412358133671,
+        "kept": 2000
+       },
+       "filtered": {
+        "precision": 0.8513215859030837,
+        "recall": 0.7867684478371502,
+        "f1": 0.817773075905845,
+        "kept": 1816
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 2000,
+      "n_correct": 1618,
+      "auroc": 0.7753520602644335,
+      "pr_auc": 0.9121239100348063,
+      "base_rate": 0.809,
+      "auroc_ci": {
+       "ci_low": 0.7451362524963324,
+       "ci_high": 0.8045537222059281,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 2000,
+      "n_correct": 1618,
+      "auroc": 0.7877898510862742,
+      "pr_auc": 0.9168134118579113,
+      "base_rate": 0.809,
+      "auroc_ci": {
+       "ci_low": 0.7679070305657528,
+       "ci_high": 0.8073904857124631,
+       "n_resamples": 2000
+      }
+     }
+    }
+   }
+  },
+  "E1-BioRED": {
+   "opus": {
+    "f1": {
+     "f1": 0.914419011517714,
+     "precision": 0.9145523476232138,
+     "recall": 0.9142857142857143,
+     "ci": [
+      0.9043735167009475,
+      0.92420694873599
+     ],
+     "sentences": 1096,
+     "pred": 3429,
+     "gold": 3430
+    },
+    "reviewer": {
+     "n_spans": 3429,
+     "share_correct": 0.9145523476232138,
+     "W_cal": {
+      "auroc": {
+       "n": 3429,
+       "n_correct": 3136,
+       "auroc": 0.792145164379745,
+       "pr_auc": 0.969178529342289,
+       "base_rate": 0.9145523476232138,
+       "auroc_ci": {
+        "ci_low": 0.7583525746009145,
+        "ci_high": 0.8225982807676367,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3429,
+       "share_passed": 0.936716243802858,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.9414694894146949,
+       "p_correct_given_not_passed": 0.5161290322580645,
+       "false_acceptance": 0.6416382252559727,
+       "false_rejection": 0.03571428571428571,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.9145523476232138,
+        "recall": 0.9142857142857143,
+        "f1": 0.914419011517714,
+        "kept": 3429
+       },
+       "filtered": {
+        "precision": 0.9414694894146949,
+        "recall": 0.8816326530612245,
+        "f1": 0.9105691056910569,
+        "kept": 3212
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 3429,
+       "n_correct": 3136,
+       "auroc": 0.7539723653966706,
+       "pr_auc": 0.9613170098488663,
+       "base_rate": 0.9145523476232138,
+       "auroc_ci": {
+        "ci_low": 0.715917795329817,
+        "ci_high": 0.7877677782878708,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3429,
+       "share_passed": 0.8702245552639254,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.9463806970509383,
+       "p_correct_given_not_passed": 0.701123595505618,
+       "false_acceptance": 0.5460750853242321,
+       "false_rejection": 0.09948979591836735,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.9145523476232138,
+        "recall": 0.9142857142857143,
+        "f1": 0.914419011517714,
+        "kept": 3429
+       },
+       "filtered": {
+        "precision": 0.9463806970509383,
+        "recall": 0.8233236151603499,
+        "f1": 0.880573744932959,
+        "kept": 2984
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 3429,
+      "n_correct": 3136,
+      "auroc": 0.8882638913073762,
+      "pr_auc": 0.9846532948594785,
+      "base_rate": 0.9145523476232138,
+      "auroc_ci": {
+       "ci_low": 0.8654586065267996,
+       "ci_high": 0.9097318757808321,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 3429,
+      "n_correct": 3136,
+      "auroc": 0.601119554050289,
+      "pr_auc": 0.9310698461323468,
+      "base_rate": 0.9145523476232138,
+      "auroc_ci": {
+       "ci_low": 0.5725361076905344,
+       "ci_high": 0.6288638620855193,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "small": {
+    "f1": {
+     "f1": 0.7223198594024605,
+     "precision": 0.7257210123602119,
+     "recall": 0.7189504373177843,
+     "ci": [
+      0.7022263223094254,
+      0.7423116396886206
+     ],
+     "sentences": 1096,
+     "pred": 3398,
+     "gold": 3430
+    },
+    "reviewer": {
+     "n_spans": 3398,
+     "share_correct": 0.7257210123602119,
+     "W_cal": {
+      "auroc": {
+       "n": 3398,
+       "n_correct": 2466,
+       "auroc": 0.8508311752277323,
+       "pr_auc": 0.9220791603490888,
+       "base_rate": 0.7257210123602119,
+       "auroc_ci": {
+        "ci_low": 0.8342834931893517,
+        "ci_high": 0.8671349523446241,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3398,
+       "share_passed": 0.9072984108298999,
+       "share_failed": 0.0038257798705120657,
+       "p_correct_given_passed": 0.7742458644177749,
+       "p_correct_given_not_passed": 0.2507936507936508,
+       "false_acceptance": 0.7467811158798283,
+       "false_rejection": 0.03203568532035685,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.7257210123602119,
+        "recall": 0.7189504373177843,
+        "f1": 0.7223198594024605,
+        "kept": 3398
+       },
+       "filtered": {
+        "precision": 0.7742458644177749,
+        "recall": 0.6959183673469388,
+        "f1": 0.7329955473668048,
+        "kept": 3083
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 3398,
+       "n_correct": 2466,
+       "auroc": 0.7618917710041109,
+       "pr_auc": 0.8826126648818475,
+       "base_rate": 0.7257210123602119,
+       "auroc_ci": {
+        "ci_low": 0.7430559036988982,
+        "ci_high": 0.7808059912585185,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3398,
+       "share_passed": 0.8104767510300177,
+       "share_failed": 0.0002942907592701589,
+       "p_correct_given_passed": 0.8057371096586783,
+       "p_correct_given_not_passed": 0.38354037267080743,
+       "false_acceptance": 0.5740343347639485,
+       "false_rejection": 0.10016220600162205,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.7257210123602119,
+        "recall": 0.7189504373177843,
+        "f1": 0.7223198594024605,
+        "kept": 3398
+       },
+       "filtered": {
+        "precision": 0.8057371096586783,
+        "recall": 0.6469387755102041,
+        "f1": 0.7176584734799483,
+        "kept": 2754
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 3398,
+      "n_correct": 2466,
+      "auroc": 0.8203422772887232,
+      "pr_auc": 0.89257378128741,
+      "base_rate": 0.7257210123602119,
+      "auroc_ci": {
+       "ci_low": 0.8006820532994059,
+       "ci_high": 0.8380349344129195,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 3398,
+      "n_correct": 2466,
+      "auroc": 0.6516025674495021,
+      "pr_auc": 0.804412691665169,
+      "base_rate": 0.7257210123602119,
+      "auroc_ci": {
+       "ci_low": 0.6371093478103022,
+       "ci_high": 0.6661487734139455,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "medium": {
+    "f1": {
+     "f1": 0.751233671988389,
+     "precision": 0.7479768786127168,
+     "recall": 0.7545189504373178,
+     "ci": [
+      0.732609890226559,
+      0.7690084882228022
+     ],
+     "sentences": 1096,
+     "pred": 3460,
+     "gold": 3430
+    },
+    "reviewer": {
+     "n_spans": 3460,
+     "share_correct": 0.7479768786127168,
+     "W_cal": {
+      "auroc": {
+       "n": 3460,
+       "n_correct": 2588,
+       "auroc": 0.8399617855167818,
+       "pr_auc": 0.9217800686999383,
+       "base_rate": 0.7479768786127168,
+       "auroc_ci": {
+        "ci_low": 0.8222113890101849,
+        "ci_high": 0.8578660818077353,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3460,
+       "share_passed": 0.9439306358381503,
+       "share_failed": 0.0005780346820809249,
+       "p_correct_given_passed": 0.7709736680955297,
+       "p_correct_given_not_passed": 0.36082474226804123,
+       "false_acceptance": 0.8577981651376146,
+       "false_rejection": 0.02704791344667697,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.7479768786127168,
+        "recall": 0.7545189504373178,
+        "f1": 0.751233671988389,
+        "kept": 3460
+       },
+       "filtered": {
+        "precision": 0.7709736680955297,
+        "recall": 0.7341107871720116,
+        "f1": 0.7520908004778971,
+        "kept": 3266
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 3460,
+       "n_correct": 2588,
+       "auroc": 0.7401446159408988,
+       "pr_auc": 0.8840646026871305,
+       "base_rate": 0.7479768786127168,
+       "auroc_ci": {
+        "ci_low": 0.7192917206666911,
+        "ci_high": 0.7600962155302801,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3460,
+       "share_passed": 0.826878612716763,
+       "share_failed": 0.00028901734104046245,
+       "p_correct_given_passed": 0.8175463124781545,
+       "p_correct_given_not_passed": 0.41569282136894825,
+       "false_acceptance": 0.5986238532110092,
+       "false_rejection": 0.09621329211746522,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.7479768786127168,
+        "recall": 0.7545189504373178,
+        "f1": 0.751233671988389,
+        "kept": 3460
+       },
+       "filtered": {
+        "precision": 0.8175463124781545,
+        "recall": 0.6819241982507288,
+        "f1": 0.7436019710697822,
+        "kept": 2861
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 3460,
+      "n_correct": 2588,
+      "auroc": 0.79030223295946,
+      "pr_auc": 0.8844187185768727,
+      "base_rate": 0.7479768786127168,
+      "auroc_ci": {
+       "ci_low": 0.7695094595870651,
+       "ci_high": 0.8105375035395489,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 3460,
+      "n_correct": 2588,
+      "auroc": 0.6558542957616664,
+      "pr_auc": 0.822440686282119,
+      "base_rate": 0.7479768786127168,
+      "auroc_ci": {
+       "ci_low": 0.6413555771249387,
+       "ci_high": 0.6698192482556401,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "large": {
+    "f1": {
+     "f1": 0.8075793184488836,
+     "precision": 0.8137951450562463,
+     "recall": 0.8014577259475218,
+     "ci": [
+      0.7882058076869085,
+      0.82487488596998
+     ],
+     "sentences": 1096,
+     "pred": 3378,
+     "gold": 3430
+    },
+    "reviewer": {
+     "n_spans": 3378,
+     "share_correct": 0.8137951450562463,
+     "W_cal": {
+      "auroc": {
+       "n": 3378,
+       "n_correct": 2749,
+       "auroc": 0.8095919834412977,
+       "pr_auc": 0.9354494137271545,
+       "base_rate": 0.8137951450562463,
+       "auroc_ci": {
+        "ci_low": 0.7858750652588106,
+        "ci_high": 0.8318429025329837,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3378,
+       "share_passed": 0.9567791592658378,
+       "share_failed": 0.0002960331557134399,
+       "p_correct_given_passed": 0.8292079207920792,
+       "p_correct_given_not_passed": 0.4726027397260274,
+       "false_acceptance": 0.8775834658187599,
+       "false_rejection": 0.025100036376864313,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.8137951450562463,
+        "recall": 0.8014577259475218,
+        "f1": 0.8075793184488836,
+        "kept": 3378
+       },
+       "filtered": {
+        "precision": 0.8292079207920792,
+        "recall": 0.7813411078717201,
+        "f1": 0.8045631942359652,
+        "kept": 3232
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 3378,
+       "n_correct": 2749,
+       "auroc": 0.7293723227003778,
+       "pr_auc": 0.9114164216152915,
+       "base_rate": 0.8137951450562463,
+       "auroc_ci": {
+        "ci_low": 0.704613569998374,
+        "ci_high": 0.754741671401107,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 3378,
+       "share_passed": 0.8531675547661338,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.8657182512144345,
+       "p_correct_given_not_passed": 0.5120967741935484,
+       "false_acceptance": 0.615262321144674,
+       "false_rejection": 0.09239723535831211,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.8137951450562463,
+        "recall": 0.8014577259475218,
+        "f1": 0.8075793184488836,
+        "kept": 3378
+       },
+       "filtered": {
+        "precision": 0.8657182512144345,
+        "recall": 0.7274052478134111,
+        "f1": 0.7905576679340938,
+        "kept": 2882
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 3378,
+      "n_correct": 2749,
+      "auroc": 0.7965645550542733,
+      "pr_auc": 0.9227239861885808,
+      "base_rate": 0.8137951450562463,
+      "auroc_ci": {
+       "ci_low": 0.7738877786033915,
+       "ci_high": 0.8177472395956535,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 3378,
+      "n_correct": 2749,
+      "auroc": 0.6518256964087533,
+      "pr_auc": 0.867697234906643,
+      "base_rate": 0.8137951450562463,
+      "auroc_ci": {
+       "ci_low": 0.6356372418265681,
+       "ci_high": 0.6685600048704612,
+       "n_resamples": 2000
+      }
+     }
+    }
+   }
+  },
+  "E1-MedMentions": {
+   "opus": {
+    "f1": {
+     "f1": 0.6685702199661591,
+     "precision": 0.5963025844180343,
+     "recall": 0.7607701564380265,
+     "ci": [
+      0.6529081262606978,
+      0.6840483545724259
+     ],
+     "sentences": 1000,
+     "pred": 5301,
+     "gold": 4155
+    },
+    "reviewer": {
+     "n_spans": 5301,
+     "share_correct": 0.5963025844180343,
+     "W_cal": {
+      "auroc": {
+       "n": 5301,
+       "n_correct": 3161,
+       "auroc": 0.8453303550574023,
+       "pr_auc": 0.8659349016787667,
+       "base_rate": 0.5963025844180343,
+       "auroc_ci": {
+        "ci_low": 0.8321095616843874,
+        "ci_high": 0.8592581306527567,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 5301,
+       "share_passed": 0.7383512544802867,
+       "share_failed": 0.00207508017355216,
+       "p_correct_given_passed": 0.7557485947879408,
+       "p_correct_given_not_passed": 0.14635904830569574,
+       "false_acceptance": 0.44672897196261685,
+       "false_rejection": 0.06422018348623854,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.5963025844180343,
+        "recall": 0.7607701564380265,
+        "f1": 0.6685702199661591,
+        "kept": 5301
+       },
+       "filtered": {
+        "precision": 0.7557485947879408,
+        "recall": 0.711913357400722,
+        "f1": 0.7331763539472055,
+        "kept": 3914
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 5301,
+       "n_correct": 3161,
+       "auroc": 0.8452021866970999,
+       "pr_auc": 0.8643893592657698,
+       "base_rate": 0.5963025844180343,
+       "auroc_ci": {
+        "ci_low": 0.8316572343752016,
+        "ci_high": 0.8591755033299129,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 5301,
+       "share_passed": 0.7132616487455197,
+       "share_failed": 0.0,
+       "p_correct_given_passed": 0.7688442211055276,
+       "p_correct_given_not_passed": 0.16710526315789473,
+       "false_acceptance": 0.40841121495327104,
+       "false_rejection": 0.08035431825371718,
+       "p_incorrect_given_failed": null
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.5963025844180343,
+        "recall": 0.7607701564380265,
+        "f1": 0.6685702199661591,
+        "kept": 5301
+       },
+       "filtered": {
+        "precision": 0.7688442211055276,
+        "recall": 0.699638989169675,
+        "f1": 0.7326108870967741,
+        "kept": 3781
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 5301,
+      "n_correct": 3161,
+      "auroc": 0.8505522918040251,
+      "pr_auc": 0.872562368835268,
+      "base_rate": 0.5963025844180343,
+      "auroc_ci": {
+       "ci_low": 0.8378050650073833,
+       "ci_high": 0.8637812908564629,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 5301,
+      "n_correct": 3161,
+      "auroc": 0.7108311873386808,
+      "pr_auc": 0.7241049928353858,
+      "base_rate": 0.5963025844180343,
+      "auroc_ci": {
+       "ci_low": 0.6973679542891238,
+       "ci_high": 0.7249452422722025,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "small": {
+    "f1": {
+     "f1": 0.5135199808566643,
+     "precision": 0.5105876754699025,
+     "recall": 0.5164861612515043,
+     "ci": [
+      0.49374569954128444,
+      0.5328610497748291
+     ],
+     "sentences": 1000,
+     "pred": 4203,
+     "gold": 4155
+    },
+    "reviewer": {
+     "n_spans": 4203,
+     "share_correct": 0.5105876754699025,
+     "W_cal": {
+      "auroc": {
+       "n": 4203,
+       "n_correct": 2146,
+       "auroc": 0.8561345320980209,
+       "pr_auc": 0.8311300910460726,
+       "base_rate": 0.5105876754699025,
+       "auroc_ci": {
+        "ci_low": 0.8423377850223454,
+        "ci_high": 0.8694205241359986,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 4203,
+       "share_passed": 0.8981679752557696,
+       "share_failed": 0.0030930287889602663,
+       "p_correct_given_passed": 0.5613245033112583,
+       "p_correct_given_not_passed": 0.0630841121495327,
+       "false_acceptance": 0.8050559066601848,
+       "false_rejection": 0.012581547064305684,
+       "p_incorrect_given_failed": 0.9230769230769231
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.5105876754699025,
+        "recall": 0.5164861612515043,
+        "f1": 0.5135199808566643,
+        "kept": 4203
+       },
+       "filtered": {
+        "precision": 0.5613245033112583,
+        "recall": 0.5099879663056558,
+        "f1": 0.5344262295081967,
+        "kept": 3775
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 4203,
+       "n_correct": 2146,
+       "auroc": 0.8474004614978246,
+       "pr_auc": 0.8237139459431855,
+       "base_rate": 0.5105876754699025,
+       "auroc_ci": {
+        "ci_low": 0.8331714025203557,
+        "ci_high": 0.8613897525114583,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 4203,
+       "share_passed": 0.8072805139186295,
+       "share_failed": 0.0009517011658339282,
+       "p_correct_given_passed": 0.6156793398172709,
+       "p_correct_given_not_passed": 0.07037037037037037,
+       "false_acceptance": 0.6339329120077783,
+       "false_rejection": 0.026561043802423114,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.5105876754699025,
+        "recall": 0.5164861612515043,
+        "f1": 0.5135199808566643,
+        "kept": 4203
+       },
+       "filtered": {
+        "precision": 0.6156793398172709,
+        "recall": 0.5027677496991576,
+        "f1": 0.5535241123476418,
+        "kept": 3393
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 4203,
+      "n_correct": 2146,
+      "auroc": 0.7241193551353979,
+      "pr_auc": 0.6754082891239634,
+      "base_rate": 0.5105876754699025,
+      "auroc_ci": {
+       "ci_low": 0.704368537785918,
+       "ci_high": 0.7424677975731647,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 4203,
+      "n_correct": 2146,
+      "auroc": 0.810516428117387,
+      "pr_auc": 0.7580704701534301,
+      "base_rate": 0.5105876754699025,
+      "auroc_ci": {
+       "ci_low": 0.7961499563894445,
+       "ci_high": 0.8244783380789287,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "medium": {
+    "f1": {
+     "f1": 0.5633868887064618,
+     "precision": 0.5494053064958829,
+     "recall": 0.5780986762936221,
+     "ci": [
+      0.5453171932846794,
+      0.5815658264802536
+     ],
+     "sentences": 1000,
+     "pred": 4372,
+     "gold": 4155
+    },
+    "reviewer": {
+     "n_spans": 4372,
+     "share_correct": 0.5494053064958829,
+     "W_cal": {
+      "auroc": {
+       "n": 4372,
+       "n_correct": 2402,
+       "auroc": 0.8312973114621065,
+       "pr_auc": 0.8224162283050767,
+       "base_rate": 0.5494053064958829,
+       "auroc_ci": {
+        "ci_low": 0.8158086155129549,
+        "ci_high": 0.8459296025223884,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 4372,
+       "share_passed": 0.9361848124428179,
+       "share_failed": 0.0006861848124428179,
+       "p_correct_given_passed": 0.5817248961641828,
+       "p_correct_given_not_passed": 0.07526881720430108,
+       "false_acceptance": 0.8690355329949239,
+       "false_rejection": 0.008742714404662781,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.5494053064958829,
+        "recall": 0.5780986762936221,
+        "f1": 0.5633868887064618,
+        "kept": 4372
+       },
+       "filtered": {
+        "precision": 0.5817248961641828,
+        "recall": 0.5730445246690734,
+        "f1": 0.5773520853540253,
+        "kept": 4093
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 4372,
+       "n_correct": 2402,
+       "auroc": 0.8224491434802639,
+       "pr_auc": 0.8170642484825862,
+       "base_rate": 0.5494053064958829,
+       "auroc_ci": {
+        "ci_low": 0.8071667501039136,
+        "ci_high": 0.837425453852097,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 4372,
+       "share_passed": 0.8504117108874657,
+       "share_failed": 0.0006861848124428179,
+       "p_correct_given_passed": 0.6317912856374395,
+       "p_correct_given_not_passed": 0.08103975535168195,
+       "false_acceptance": 0.6949238578680204,
+       "false_rejection": 0.022064945878434637,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.5494053064958829,
+        "recall": 0.5780986762936221,
+        "f1": 0.5633868887064618,
+        "kept": 4372
+       },
+       "filtered": {
+        "precision": 0.6317912856374395,
+        "recall": 0.5653429602888087,
+        "f1": 0.5967229772640671,
+        "kept": 3718
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 4372,
+      "n_correct": 2402,
+      "auroc": 0.7130350342565629,
+      "pr_auc": 0.697209007990391,
+      "base_rate": 0.5494053064958829,
+      "auroc_ci": {
+       "ci_low": 0.6936897233061676,
+       "ci_high": 0.7320784242022984,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 4372,
+      "n_correct": 2402,
+      "auroc": 0.7941051661686327,
+      "pr_auc": 0.7648636295389182,
+      "base_rate": 0.5494053064958829,
+      "auroc_ci": {
+       "ci_low": 0.7787090670520507,
+       "ci_high": 0.8088460652840208,
+       "n_resamples": 2000
+      }
+     }
+    }
+   },
+   "large": {
+    "f1": {
+     "f1": 0.6169820027688048,
+     "precision": 0.5925105251495679,
+     "recall": 0.6435619735258724,
+     "ci": [
+      0.5986578410394532,
+      0.6342133335478694
+     ],
+     "sentences": 1000,
+     "pred": 4513,
+     "gold": 4155
+    },
+    "reviewer": {
+     "n_spans": 4513,
+     "share_correct": 0.5925105251495679,
+     "W_cal": {
+      "auroc": {
+       "n": 4513,
+       "n_correct": 2674,
+       "auroc": 0.8069175997654086,
+       "pr_auc": 0.8210239507581376,
+       "base_rate": 0.5925105251495679,
+       "auroc_ci": {
+        "ci_low": 0.7917555922017439,
+        "ci_high": 0.82130441417393,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 4513,
+       "share_passed": 0.9450476401506758,
+       "share_failed": 0.00022158209616662973,
+       "p_correct_given_passed": 0.6220398593200469,
+       "p_correct_given_not_passed": 0.0846774193548387,
+       "false_acceptance": 0.876563349646547,
+       "false_rejection": 0.007853403141361256,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.5925105251495679,
+        "recall": 0.6435619735258724,
+        "f1": 0.6169820027688048,
+        "kept": 4513
+       },
+       "filtered": {
+        "precision": 0.6220398593200469,
+        "recall": 0.6385078219013237,
+        "f1": 0.6301662707838479,
+        "kept": 4265
+       }
+      }
+     },
+     "W_eq": {
+      "auroc": {
+       "n": 4513,
+       "n_correct": 2674,
+       "auroc": 0.8017542907087076,
+       "pr_auc": 0.8178753530576641,
+       "base_rate": 0.5925105251495679,
+       "auroc_ci": {
+        "ci_low": 0.7866606984849615,
+        "ci_high": 0.8166726337440455,
+        "n_resamples": 2000
+       }
+      },
+      "decisions": {
+       "n": 4513,
+       "share_passed": 0.8756924440505207,
+       "share_failed": 0.00022158209616662973,
+       "p_correct_given_passed": 0.6629554655870445,
+       "p_correct_given_not_passed": 0.0962566844919786,
+       "false_acceptance": 0.7243066884176182,
+       "false_rejection": 0.02019446522064323,
+       "p_incorrect_given_failed": 1.0
+      },
+      "filtering": {
+       "unfiltered": {
+        "precision": 0.5925105251495679,
+        "recall": 0.6435619735258724,
+        "f1": 0.6169820027688048,
+        "kept": 4513
+       },
+       "filtered": {
+        "precision": 0.6629554655870445,
+        "recall": 0.6305655836341757,
+        "f1": 0.6463550018502529,
+        "kept": 3952
+       }
+      }
+     },
+     "B0_confidence": {
+      "n": 4513,
+      "n_correct": 2674,
+      "auroc": 0.6943954695549718,
+      "pr_auc": 0.7286079282082334,
+      "base_rate": 0.5925105251495679,
+      "auroc_ci": {
+       "ci_low": 0.6761695222720251,
+       "ci_high": 0.7115816799218242,
+       "n_resamples": 2000
+      }
+     },
+     "B2_seen_in_train": {
+      "n": 4513,
+      "n_correct": 2674,
+      "auroc": 0.7638877873775339,
+      "pr_auc": 0.7647322835199318,
+      "base_rate": 0.5925105251495679,
+      "auroc_ci": {
+       "ci_low": 0.7490338889733916,
+       "ci_high": 0.7779941448336747,
+       "n_resamples": 2000
+      }
+     }
+    }
+   }
+  }
+ },
+ "pooled": {
+  "opus": {
+   "n_spans": 20797,
+   "share_correct": 0.7151031398759436,
+   "W_cal": {
+    "auroc": {
+     "n": 20797,
+     "n_correct": 14872,
+     "auroc": 0.8616474364648659,
+     "pr_auc": 0.9231044834845383,
+     "base_rate": 0.7151031398759436,
+     "auroc_ci": {
+      "ci_low": 0.8544244333785422,
+      "ci_high": 0.8685580590696406,
+      "n_resamples": 2000
+     }
+    },
+    "decisions": {
+     "n": 20797,
+     "share_passed": 0.8076164831466077,
+     "share_failed": 0.0019714381882002213,
+     "p_correct_given_passed": 0.840080971659919,
+     "p_correct_given_not_passed": 0.19045238690327418,
+     "false_acceptance": 0.4533333333333333,
+     "false_rejection": 0.051237224314147393,
+     "p_incorrect_given_failed": 1.0
+    },
+    "filtering": {
+     "unfiltered": {
+      "precision": 0.7151031398759436,
+      "recall": 0.7786387434554973,
+      "f1": 0.7455197132616488,
+      "kept": 20797
+     },
+     "filtered": {
+      "precision": 0.840080971659919,
+      "recall": 0.7387434554973822,
+      "f1": 0.7861600178292847,
+      "kept": 16796
+     }
+    }
+   },
+   "W_eq": {
+    "auroc": {
+     "n": 20797,
+     "n_correct": 14872,
+     "auroc": 0.8483499193114578,
+     "pr_auc": 0.9162299193009033,
+     "base_rate": 0.7151031398759436,
+     "auroc_ci": {
+      "ci_low": 0.8408977484997179,
+      "ci_high": 0.8555059632548595,
+      "n_resamples": 2000
+     }
+    },
+    "decisions": {
+     "n": 20797,
+     "share_passed": 0.7607347213540414,
+     "share_failed": 0.00019233543299514353,
+     "p_correct_given_passed": 0.8531698375576765,
+     "p_correct_given_not_passed": 0.27612540192926044,
+     "false_acceptance": 0.3920675105485232,
+     "false_rejection": 0.09238838084991931,
+     "p_incorrect_given_failed": 1.0
+    },
+    "filtering": {
+     "unfiltered": {
+      "precision": 0.7151031398759436,
+      "recall": 0.7786387434554973,
+      "f1": 0.7455197132616488,
+      "kept": 20797
+     },
+     "filtered": {
+      "precision": 0.8531698375576765,
+      "recall": 0.7067015706806282,
+      "f1": 0.773059190744824,
+      "kept": 15821
+     }
+    }
+   },
+   "B0_confidence": {
+    "n": 20797,
+    "n_correct": 14872,
+    "auroc": 0.8833757487238499,
+    "pr_auc": 0.9426557475204455,
+    "base_rate": 0.7151031398759436,
+    "auroc_ci": {
+     "ci_low": 0.8772258971320346,
+     "ci_high": 0.8892309867472723,
+     "n_resamples": 2000
+    }
+   },
+   "B2_seen_in_train": {
+    "n": 20797,
+    "n_correct": 14872,
+    "auroc": 0.6565374117930106,
+    "pr_auc": 0.7900679396443996,
+    "base_rate": 0.7151031398759436,
+    "auroc_ci": {
+     "ci_low": 0.6483734240417425,
+     "ci_high": 0.6647099896501683,
+     "n_resamples": 2000
+    }
+   }
+  },
+  "large": {
+   "n_spans": 18922,
+   "share_correct": 0.6441708064686609,
+   "W_cal": {
+    "auroc": {
+     "n": 18922,
+     "n_correct": 12189,
+     "auroc": 0.8322275868034543,
+     "pr_auc": 0.8745187102614053,
+     "base_rate": 0.6441708064686609,
+     "auroc_ci": {
+      "ci_low": 0.8245409963957541,
+      "ci_high": 0.8396175814464616,
+      "n_resamples": 2000
+     }
+    },
+    "decisions": {
+     "n": 18922,
+     "share_passed": 0.9302927808899694,
+     "share_failed": 0.0002642426804777508,
+     "p_correct_given_passed": 0.6830653865818327,
+     "p_correct_given_not_passed": 0.12509476876421532,
+     "false_acceptance": 0.8286053765037873,
+     "false_rejection": 0.013536795471326605,
+     "p_incorrect_given_failed": 1.0
+    },
+    "filtering": {
+     "unfiltered": {
+      "precision": 0.6441708064686609,
+      "recall": 0.6381675392670157,
+      "f1": 0.6411551207195834,
+      "kept": 18922
+     },
+     "filtered": {
+      "precision": 0.6830653865818327,
+      "recall": 0.6295287958115183,
+      "f1": 0.6552052965697628,
+      "kept": 17603
+     }
+    }
+   },
+   "W_eq": {
+    "auroc": {
+     "n": 18922,
+     "n_correct": 12189,
+     "auroc": 0.7908396185982942,
+     "pr_auc": 0.8532182354592952,
+     "base_rate": 0.6441708064686609,
+     "auroc_ci": {
+      "ci_low": 0.7826784294078475,
+      "ci_high": 0.7986948739515507,
+      "n_resamples": 2000
+     }
+    },
+    "decisions": {
+     "n": 18922,
+     "share_passed": 0.8400803297748652,
+     "share_failed": 0.00021139414438220062,
+     "p_correct_given_passed": 0.7220684448917967,
+     "p_correct_given_not_passed": 0.2349636483807006,
+     "false_acceptance": 0.6561710975790881,
+     "false_rejection": 0.05833128230371647,
+     "p_incorrect_given_failed": 1.0
+    },
+    "filtering": {
+     "unfiltered": {
+      "precision": 0.6441708064686609,
+      "recall": 0.6381675392670157,
+      "f1": 0.6411551207195834,
+      "kept": 18922
+     },
+     "filtered": {
+      "precision": 0.7220684448917967,
+      "recall": 0.6009424083769633,
+      "f1": 0.6559606812207109,
+      "kept": 15896
+     }
+    }
+   },
+   "B0_confidence": {
+    "n": 18922,
+    "n_correct": 12189,
+    "auroc": 0.7657515023083694,
+    "pr_auc": 0.8238164009617823,
+    "base_rate": 0.6441708064686609,
+    "auroc_ci": {
+     "ci_low": 0.757006273375084,
+     "ci_high": 0.7737365800118192,
+     "n_resamples": 2000
+    }
+   },
+   "B2_seen_in_train": {
+    "n": 18922,
+    "n_correct": 12189,
+    "auroc": 0.7074874443052397,
+    "pr_auc": 0.7722295916831278,
+    "base_rate": 0.6441708064686609,
+    "auroc_ci": {
+     "ci_low": 0.7001807984960554,
+     "ci_high": 0.7148350555767484,
+     "n_resamples": 2000
+    }
+   }
+  }
+ }
+}

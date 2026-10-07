@@ -1,0 +1,40 @@
+{"id": "biored:test:15", "entities": []}
+{"id": "biored:test:12", "entities": []}
+{"id": "biored:test:22", "entities": []}
+{"id": "biored:test:24", "entities": []}
+{"id": "biored:test:25", "entities": []}
+{"id": "biored:test:26", "entities": []}
+{"id": "biored:test:23", "entities": []}
+{"id": "biored:test:49", "entities": []}
+{"id": "biored:test:48", "entities": []}
+{"id": "biored:test:64", "entities": []}
+{"id": "biored:test:68", "entities": []}
+{"id": "biored:test:65", "entities": []}
+{"id": "biored:test:66", "entities": [{"text": "cataract", "type": "DiseaseOrPhenotypicFeature", "confidence": 0.9, "normalized_form": "Cataract"}]}
+{"id": "biored:test:67", "entities": []}
+{"id": "biored:test:70", "entities": []}
+{"id": "biored:test:73", "entities": []}
+{"id": "biored:test:76", "entities": []}
+{"id": "biored:test:7", "entities": [{"text": "terbutaline", "type": "ChemicalEntity", "confidence": 0.97, "normalized_form": "terbutaline"}]}
+{"id": "biored:test:19", "entities": [{"text": "patients", "type": "OrganismTaxon", "confidence": 0.9, "normalized_form": "Homo sapiens"}]}
+{"id": "biored:test:34", "entities": [{"text": "nefiracetam", "type": "ChemicalEntity", "confidence": 0.97, "normalized_form": "nefiracetam"}]}
+{"id": "biored:test:46", "entities": [{"text": "patients", "type": "OrganismTaxon", "confidence": 0.9, "normalized_form": "Homo sapiens"}]}
+{"id": "biored:test:37", "entities": [{"text": "seizure", "type": "DiseaseOrPhenotypicFeature", "confidence": 0.95, "normalized_form": "Seizures"}]}
+{"id": "biored:test:39", "entities": [{"text": "CNS toxicity", "type": "DiseaseOrPhenotypicFeature", "confidence": 0.85, "normalized_form": "Neurotoxicity Syndromes"}]}
+{"id": "biored:test:85", "entities": []}
+{"id": "biored:test:72", "entities": [{"text": "deletion of glycine-91", "type": "SequenceVariant", "confidence": 0.8, "normalized_form": "p.G91del"}]}
+{"id": "biored:test:5", "entities": [{"text": "metoprolol", "type": "ChemicalEntity", "confidence": 0.95, "normalized_form": "metoprolol"}]}
+{"id": "biored:test:69", "entities": [{"text": "cataract", "type": "DiseaseOrPhenotypicFeature", "confidence": 0.75, "normalized_form": "Cataract"}]}
+{"id": "biored:test:9", "entities": [{"text": "metoprolol", "type": "ChemicalEntity", "confidence": 0.96, "normalized_form": "metoprolol"}, {"text": "terbutaline", "type": "ChemicalEntity", "confidence": 0.96, "normalized_form": "terbutaline"}]}
+{"id": "biored:test:16", "entities": [{"text": "patients", "type": "OrganismTaxon", "confidence": 0.9, "normalized_form": "Homo sapiens"}, {"text": "dystrophin", "type": "GeneOrGeneProduct", "confidence": 0.93, "normalized_form": "DMD"}]}
+{"id": "biored:test:17", "entities": []}
+{"id": "biored:test:30", "entities": [{"text": "nefiracetam", "type": "ChemicalEntity", "confidence": 0.96, "normalized_form": "nefiracetam"}, {"text": "apomorphine", "type": "ChemicalEntity", "confidence": 0.96, "normalized_form": "apomorphine"}]}
+{"id": "biored:test:44", "entities": [{"text": "FMR1", "type": "GeneOrGeneProduct", "confidence": 0.95, "normalized_form": "FMR1"}, {"text": "patients", "type": "OrganismTaxon", "confidence": 0.9, "normalized_form": "Homo sapiens"}]}
+{"id": "biored:test:10", "entities": [{"text": "metoprolol", "type": "ChemicalEntity", "confidence": 0.85, "normalized_form": "metoprolol"}, {"text": "alpha-hydroxymetoprolol", "type": "ChemicalEntity", "confidence": 0.85, "normalized_form": "alpha-hydroxymetoprolol"}]}
+{"id": "biored:test:40", "entities": [{"text": "pethidine", "type": "ChemicalEntity", "confidence": 0.97, "normalized_form": "meperidine"}, {"text": "norpethidine", "type": "ChemicalEntity", "confidence": 0.95, "normalized_form": "normeperidine"}]}
+{"id": "biored:test:57", "entities": [{"text": "rats", "type": "OrganismTaxon", "confidence": 0.95, "normalized_form": "Rattus"}, {"text": "DFP", "type": "ChemicalEntity", "confidence": 0.9, "normalized_form": "diisopropyl fluorophosphate"}]}
+{"id": "biored:test:36", "entities": [{"text": "pethidine", "type": "ChemicalEntity", "confidence": 0.97, "normalized_form": "meperidine"}, {"text": "postoperative pain", "type": "DiseaseOrPhenotypicFeature", "confidence": 0.85, "normalized_form": "Pain, Postoperative"}]}
+{"id": "biored:test:47", "entities": [{"text": "patient", "type": "OrganismTaxon", "confidence": 0.85, "normalized_form": "Homo sapiens"}, {"text": "A to C substitution at nucleotide 879", "type": "SequenceVariant", "confidence": 0.85, "normalized_form": "c.879A>C"}]}
+{"id": "biored:test:18", "entities": []}
+{"id": "biored:test:83", "entities": [{"text": "cyclophosphamide", "type": "ChemicalEntity", "confidence": 0.97, "normalized_form": "cyclophosphamide"}]}
+{"id": "biored:test:98", "entities": []}
